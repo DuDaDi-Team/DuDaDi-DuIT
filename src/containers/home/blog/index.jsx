@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import BlogData from "../../../data/blog.json";
 import SectionTitleTwo from "../../../components/section-title-two";

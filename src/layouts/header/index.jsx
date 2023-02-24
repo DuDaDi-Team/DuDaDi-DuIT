@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Fragment, useEffect, useState } from "react";
 import Logo from "../../components/logo";
 import MainMenu from "../../components/menu/main-menu";

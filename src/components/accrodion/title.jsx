@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useContext } from "react";
 import PropTypes from "prop-types";
 import { AccordionContext } from "./context";

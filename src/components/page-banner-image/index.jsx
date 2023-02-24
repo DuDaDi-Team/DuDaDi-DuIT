@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import Parallax from "parallax-js";

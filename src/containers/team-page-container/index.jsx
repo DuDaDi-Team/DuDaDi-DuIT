@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import TeamCard from "../../components/team-card";
 import TeamData from "../../data/team.json";

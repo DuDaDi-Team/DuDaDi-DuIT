@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavScrollTop from "./components/nav-scroll-top";
 import HomePage from "./pages/index";
@@ -24,6 +25,7 @@ import "./assets/css/vendor/material-design-iconic.min.css";
 import "./assets/css/plugins/animate.min.css";
 import "./assets/scss/style.scss";
 
+// eslint-disable-next-line prettier/prettier
 const App = () => {
     return (
         <Router>

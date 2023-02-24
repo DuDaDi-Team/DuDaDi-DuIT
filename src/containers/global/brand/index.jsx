@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import HomeData from "../../../data/home.json";

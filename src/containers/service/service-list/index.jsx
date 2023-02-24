@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import SectionTitle from "../../../components/section-title";
 import ServiceBox from "../../../components/service-box";

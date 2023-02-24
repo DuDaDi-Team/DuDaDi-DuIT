@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { Fragment } from "react";
 import { useForm } from "react-hook-form";
 

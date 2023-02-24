@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { NavLink } from "react-router-dom";
 
 const MainMenu = () => {

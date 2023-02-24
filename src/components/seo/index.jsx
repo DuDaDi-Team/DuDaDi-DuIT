@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
@@ -24,4 +25,5 @@ SEO.propTypes = {
     title: PropTypes.string,
 };
 
+// eslint-disable-next-line prettier/prettier
 export default SEO;

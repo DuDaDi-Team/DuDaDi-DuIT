@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import PropTyps from "prop-types";
 
 const Team = ({ data }) => {

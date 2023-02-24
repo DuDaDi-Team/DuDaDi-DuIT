@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useContext, useRef, useEffect, memo } from "react";
 import PropTypes from "prop-types";
 import { slideUp, slideDown } from "../../utils";

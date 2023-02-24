@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useEffect, useRef } from "react";
 import Button from "../../components/button";
 import SectionTitle from "../../components/section-title";

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 import BlogItemRightContainer from "../containers/blog/blog-item-right";
 import NewsletterArea from "../containers/global/newsletter";

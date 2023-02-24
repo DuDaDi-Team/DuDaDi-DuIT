@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useEffect, useRef } from "react";
 import SectionTitle from "../../../components/section-title";
 import { Swiper, SwiperSlide } from "swiper/react";

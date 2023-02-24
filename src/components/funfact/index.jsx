@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import PropTypes from "prop-types";
 import { useState } from "react";
 import CountUp from "react-countup";

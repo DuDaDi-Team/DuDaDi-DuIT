@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import { flatDeep, slugify, containsObject } from "../../../utils";
