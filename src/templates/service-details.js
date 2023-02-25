@@ -21,7 +21,7 @@ const ServiceDetails = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Duit – Service Details" />
+                <SEO title="Buznex – Service Details" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

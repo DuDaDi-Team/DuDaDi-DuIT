@@ -8,14 +8,11 @@ import BlogData from "../../data/blog.json";
 import SocialIcon from "../social-icon";
 
 const BlogDetailsWrap = ({ data }) => {
-    // process.env.PUBLIC_URL
-    const baseUrl = global.URL;
-    
     return (
         <div className="blog-details-wrap">
             <div className="blog-details-thumb">
                 <img
-                    src={`${baseUrl}/${data.media.largeImage}`}
+                    src={`${process.env.PUBLIC_URL}/${data.media.largeImage}`}
                     alt="img"
                 />
             </div>
@@ -23,7 +20,7 @@ const BlogDetailsWrap = ({ data }) => {
                 <Link
                     className="author"
                     to={
-                        baseUrl +
+                        process.env.PUBLIC_URL +
                         `/author/${slugify(data.author)}`
                     }
                 >
@@ -32,7 +29,7 @@ const BlogDetailsWrap = ({ data }) => {
                 <span className="separator">-</span>
                 <Link
                     className="date"
-                    to={baseUrl + `/date/${slugify(data.date)}`}
+                    to={process.env.PUBLIC_URL + `/date/${slugify(data.date)}`}
                 >
                     {data.date}
                 </Link>

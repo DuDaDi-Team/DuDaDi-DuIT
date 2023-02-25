@@ -16,10 +16,6 @@ const AboutContainer = () => {
 
         return () => parallaxInstance.disable();
     }, []);
-
-    // process.env.PUBLIC_URL
-    const baseUrl = global.URL;
-
     return (
         <div className="about-us position-relative">
             <div className="container">
@@ -61,7 +57,7 @@ const AboutContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${baseUrl}/images/about/2.png`}
+                                    src={`${process.env.PUBLIC_URL}/images/about/2.png`}
                                     alt="about"
                                 />
                             </div>

@@ -13,7 +13,7 @@ const FaqPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Duit – Faq" />
+                <SEO title="Buznex – Faq" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

@@ -20,7 +20,7 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Dunia Inovasi Teknologi" />
+                <SEO title="Buznex – Business React JS Template" />
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />

@@ -28,10 +28,6 @@ const SidebarArchive = ({ data }) => {
             date.push(obj);
         }
     });
-
-    // process.env.PUBLIC_URL
-    const baseUrl = global.URL;
-
     return (
         <div className="widget-list">
             <ul className="list-group list-group-flush">
@@ -41,7 +37,7 @@ const SidebarArchive = ({ data }) => {
                             <Link
                                 className="d-flex justify-content-between align-items-center"
                                 to={
-                                    baseUrl +
+                                    process.env.PUBLIC_URL +
                                     `/date/${single.slug}`
                                 }
                             >

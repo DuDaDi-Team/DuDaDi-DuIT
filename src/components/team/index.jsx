@@ -2,13 +2,9 @@
 import PropTyps from "prop-types";
 
 const Team = ({ data }) => {
-    // process.env.PUBLIC_URL
-    const baseUrl = global.URL;
-    const dataImage = data.thumb.substring(1, data.thumb.length);
-
     return (
         <div className="new-team-members-list">
-            <img src={baseUrl + dataImage} alt="images" />
+            <img src={process.env.PUBLIC_URL + data.thumb} alt="images" />
             <h3 className="title">{data.name}</h3>
             <span>{data.designation}</span>
         </div>

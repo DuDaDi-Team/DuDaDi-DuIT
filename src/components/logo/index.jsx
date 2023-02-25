@@ -3,14 +3,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const Logo = ({ image, classOption }) => {
-    // process.env.PUBLIC_URL
-    const baseUrl = global.URL;
-
     return (
-        <Link className={`${classOption}`} to={baseUrl + "/"}>
+        <Link className={`${classOption}`} to={process.env.PUBLIC_URL + "/"}>
             <img
                 className="logo-main"
-                src={image}
+                src={process.env.PUBLIC_URL + image}
                 alt="Logo"
             />
         </Link>

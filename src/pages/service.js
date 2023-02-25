@@ -17,7 +17,7 @@ const ServicePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Duit – Service" />
+                <SEO title="Buznex – Service" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

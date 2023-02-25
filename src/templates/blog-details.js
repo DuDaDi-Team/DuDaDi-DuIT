@@ -21,7 +21,7 @@ const BlogDetailsPage = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Duit – Blog Details" />
+                <SEO title="Buznex – Blog Details" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

@@ -28,10 +28,6 @@ const SidebarCategories = ({ data }) => {
             categories.push(obj);
         }
     });
-
-    // process.env.PUBLIC_URL
-    const baseUrl = global.URL;
-
     return (
         <div className="widget-list">
             <ul className="list-group list-group-flush">
@@ -41,7 +37,7 @@ const SidebarCategories = ({ data }) => {
                             <Link
                                 className="d-flex justify-content-between align-items-center"
                                 to={
-                                    baseUrl +
+                                    process.env.PUBLIC_URL +
                                     `/category/${cat.slug}`
                                 }
                             >

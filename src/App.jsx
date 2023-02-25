@@ -27,12 +27,8 @@ import "./assets/scss/style.scss";
 
 // eslint-disable-next-line prettier/prettier
 const App = () => {
-    console.log(process.env.PUBLIC_URL);
-
-    global.URL = "/duit-dev";
-
     return (
-        <Router basename="/">
+        <Router>
             <NavScrollTop>
                 <Switch>
                     <Route

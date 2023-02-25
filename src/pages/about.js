@@ -18,7 +18,7 @@ const AboutPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Duit – About" />
+                <SEO title="Buznex – About" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
