@@ -33,6 +33,10 @@ const MobileMenu = ({ show, onClose }) => {
             });
         }
     };
+
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+
     return (
         <div className={`offcanvas-modal ${show ? "show" : ""}`}>
             <div className="offcanvas-dialog">
@@ -40,7 +44,7 @@ const MobileMenu = ({ show, onClose }) => {
                     <div className="offcanvas-header">
                         <Logo
                             classOption="offcanvas-logo d-inline-block"
-                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                            image={`${baseUrl}/images/logo/logo.png`}
                         />
                         <button
                             type="button"
@@ -57,13 +61,13 @@ const MobileMenu = ({ show, onClose }) => {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/about"}>
+                                <NavLink to={baseUrl + "/about"}>
                                     About
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
-                                    to={process.env.PUBLIC_URL + "/service"}
+                                    to={baseUrl + "/service"}
                                 >
                                     Service
                                 </NavLink>
@@ -76,7 +80,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/service"
                                             }
                                         >
@@ -86,7 +90,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/service-details/1"
                                             }
                                         >
@@ -105,7 +109,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 <ul>
                                     <li>
                                         <NavLink
-                                            to={process.env.PUBLIC_URL + "/faq"}
+                                            to={baseUrl + "/faq"}
                                         >
                                             faq
                                         </NavLink>
@@ -113,7 +117,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL + "/team"
+                                                baseUrl + "/team"
                                             }
                                         >
                                             team
@@ -122,7 +126,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 </ul>
                             </li>
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/blog"}>
+                                <NavLink to={baseUrl + "/blog"}>
                                     Blog
                                 </NavLink>
                                 <span
@@ -134,7 +138,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL + "/blog"
+                                                baseUrl + "/blog"
                                             }
                                         >
                                             blog
@@ -143,7 +147,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/blog-left-sidebar"
                                             }
                                         >
@@ -153,7 +157,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/blog-right-sidebar"
                                             }
                                         >
@@ -163,7 +167,7 @@ const MobileMenu = ({ show, onClose }) => {
                                     <li>
                                         <NavLink
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/blog-details/1"
                                             }
                                         >
@@ -174,7 +178,7 @@ const MobileMenu = ({ show, onClose }) => {
                             </li>
                             <li>
                                 <NavLink
-                                    to={process.env.PUBLIC_URL + "/contact"}
+                                    to={baseUrl + "/contact"}
                                 >
                                     Contact
                                 </NavLink>

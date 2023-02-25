@@ -5,6 +5,8 @@ import Button from "../button";
 import Parallax from "parallax-js";
 
 const Intro = ({ data }) => {
+    // baseUrl
+    const baseUrl = global.URL;
     const sceneEl = useRef(null);
 
     useEffect(() => {
@@ -47,7 +49,7 @@ const Intro = ({ data }) => {
                             <div data-depth="0.2">
                                 <img
                                     className="animated"
-                                    src={`${process.env.PUBLIC_URL}/${data.image}`}
+                                    src={`${baseUrl}/${data.image}`}
                                     alt=""
                                 />
                             </div>

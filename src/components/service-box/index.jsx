@@ -4,18 +4,22 @@ import { Link } from "react-router-dom";
 import { slugify } from "../../utils";
 
 const ServiceBox = ({ data }) => {
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+    const dataImage = data.icon.substring(1, data.icon.length);
+
     return (
         <div className="service-media">
             <img
                 className="logo"
-                src={process.env.PUBLIC_URL + data.icon}
+                src={baseUrl + dataImage}
                 alt=" service logo"
             />
             <div className="service-media-body">
                 <h4 className="title">
                     <Link
                         to={
-                            process.env.PUBLIC_URL +
+                            baseUrl +
                             `/service-details/${slugify(data.id)}`
                         }
                     >
