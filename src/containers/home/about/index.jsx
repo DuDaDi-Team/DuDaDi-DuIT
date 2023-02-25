@@ -16,6 +16,10 @@ const HomeAboutContainer = () => {
 
         return () => parallaxInstance.disable();
     }, []);
+
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+
     return (
         <div className="about-us position-relative">
             <div className="container">
@@ -59,7 +63,7 @@ const HomeAboutContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/about/1.png`}
+                                    src={`${baseUrl}/images/about/1.png`}
                                     alt="about"
                                 />
                             </div>
@@ -69,7 +73,7 @@ const HomeAboutContainer = () => {
             </div>
             <img
                 className="about-shape"
-                src={`${process.env.PUBLIC_URL}/images/about/shape.png`}
+                src={`${baseUrl}/images/about/shape.png`}
                 alt="bg-shape"
             />
         </div>
