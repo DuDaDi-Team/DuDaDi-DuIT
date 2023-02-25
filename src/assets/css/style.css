@@ -16211,8 +16211,8 @@ textarea.form-control {
 }
 
 .grid-item .feature-card:hover .card-shape-light, .grid-item .feature-card.active .card-shape-light {
-  top: -50px;
-  right: -50px;
+  top: -30px;
+  right: -30px;
 }
 
 .grid-item .feature-card:hover .card-shape-dark, .grid-item .feature-card.active .card-shape-dark {
@@ -16280,7 +16280,7 @@ textarea.form-control {
 
 .grid-item {
   float: left;
-  width: 33.333%;
+  width: 16.333%;
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {

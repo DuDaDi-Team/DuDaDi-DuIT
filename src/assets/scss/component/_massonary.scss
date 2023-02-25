@@ -6,7 +6,7 @@
 
 .grid-item {
   float: left;
-  width: 33.333%;
+  width: 16.333%;
   @include max-screen(576, 991) {
     width: 50%;
   }

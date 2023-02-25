@@ -2,23 +2,31 @@
 import { useEffect, useRef } from "react";
 import Button from "../../../components/button";
 import SectionTitle from "../../../components/section-title";
-import Parallax from "parallax-js";
+import IconBox from "../../../components/icon-box";
+
 
 const HomeAboutContainer = () => {
-    const sceneEl = useRef(null);
-
-    useEffect(() => {
-        const parallaxInstance = new Parallax(sceneEl.current, {
-            relativeInput: true,
-        });
-
-        parallaxInstance.enable();
-
-        return () => parallaxInstance.disable();
-    }, []);
     return (
         <div className="about-us position-relative">
             <div className="container">
+                <div className="row g-0 align-items-center">
+                    <img
+                            className="icon-feature-2"
+                            src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
+                            alt="images_not_found"
+                        />
+                    <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
+                        <SectionTitle
+                            classOption="title-section"
+                            subTitle=""
+                            title="Watch our Project Video"
+                            excerptClassOption="mb-10"
+                            excerpt="Pleasure rationally encounter consequences that are extremely
+                            painful. Nor again is there anyone who loves or pursues or
+                            desires to obtain"
+                        />
+                    </div>
+                </div>
                 <div className="row mb-n7">
                     <div className="col-xl-5 col-lg-6 mb-7">
                         <div className="about-content">
@@ -51,17 +59,35 @@ const HomeAboutContainer = () => {
                             />
                         </div>
                     </div>
-                    <div className="col-xl-6 order-first order-lg-last col-lg-6 mb-7 offset-xl-1">
-                        <div
-                            className="about-photo scene text-center text-lg-left"
-                            id="scene"
-                            ref={sceneEl}
-                        >
-                            <div data-depth="0.2">
+                      <div className="col-xl-5 col-lg-6 mb-7">
+                        <div className="about-content">
+                            <div className="prj-icon">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/about/1.png`}
-                                    alt="about"
+                                    className="icon-about"
+                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-1.png`}
+                                    alt="bg-shape"
                                 />
+                                <div>
+                                    <h2>test</h2>
+                                    <span>test</span>
+                                </div>
+                            </div>
+                            <div className="prj-icon">
+                                <img
+                                    className="icon-about"
+                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-1.png`}
+                                    alt="bg-shape"
+                                />
+                                <span>test</span>
+                                
+                            </div>
+                            <div className="prj-icon">
+                                <img
+                                    className="icon-about"
+                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-1.png`}
+                                    alt="bg-shape"
+                                />
+                                <span>test</span>
                             </div>
                         </div>
                     </div>

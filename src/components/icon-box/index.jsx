@@ -14,11 +14,11 @@ const IconBox = ({ data }) => {
                     src={process.env.PUBLIC_URL + data.icon}
                     alt=" feature logo"
                 />
-                <h4 className="title my-6">
+                {/* <h4 className="title my-6">
                     <Link to={process.env.PUBLIC_URL + "/service-details/1"}>
                         {data.title}
                     </Link>
-                </h4>
+                </h4> */}
                 {/* <p>{data.excerpt}</p> */}
             </div>
         </div>
