@@ -7,16 +7,16 @@ const IntroContainer = () => {
     return (
         <div className="section position-relative">
             <div className="hero-shape1">
-                <img
-                    src={`${process.env.PUBLIC_URL}/images/slider/shape/shape1.png`}
+                { <img
+                    src={`${process.env.PUBLIC_URL}/images/slider/shape/background-banner.png`}
                     alt="shape"
-                />
+                /> }
             </div>
             <div className="hero-shape2">
-                <img
+                {/* <img
                     src={`${process.env.PUBLIC_URL}/images/slider/shape/shape2.png`}
                     alt="shape"
-                />
+                /> */}
             </div>
             <Intro data={HomeData[0].slider[0]} />
         </div>

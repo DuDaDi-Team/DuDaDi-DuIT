@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { NavLink } from "react-router-dom";
+import Button from "../../button";
 
 const MainMenu = () => {
     return (
@@ -19,32 +20,10 @@ const MainMenu = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/service"}>
                         Service
                     </NavLink>
-
-                    <ul className="sub-menu">
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/service"}
-                            >
-                                Service
-                            </NavLink>
-                        </li>
-                        <li className="sub-menu-item">
-                            <NavLink
-                                className="sub-menu-link"
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    "/service-details/1"
-                                }
-                            >
-                                single service
-                            </NavLink>
-                        </li>
-                    </ul>
                 </li>
                 <li>
-                    <NavLink to="/">Pages</NavLink>
-                    <ul className="sub-menu">
+                    <NavLink to="/">Roadmap</NavLink>
+                    {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
@@ -61,13 +40,13 @@ const MainMenu = () => {
                                 team
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                        Blog
+                        Team
                     </NavLink>
-                    <ul className="sub-menu">
+                    {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
@@ -106,11 +85,16 @@ const MainMenu = () => {
                                 blog details
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/contact"}>
                         Contact
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink style={{ backgroundColor: "#5f28e0",paddingTop:"12px",paddingLeft:"25px",paddingBottom:"12px",paddingRight:"25px",borderRadius:"50px"}} to={process.env.PUBLIC_URL + "/contact"}>
+                        Login
                     </NavLink>
                 </li>
             </ul>

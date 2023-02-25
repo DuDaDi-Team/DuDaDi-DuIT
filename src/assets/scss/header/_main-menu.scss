@@ -14,7 +14,7 @@
 
 .is-sticky {
   padding: 15px 0px;
-  background: $white;
+  background: #7f35a3;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-animation: fadeInDown 0.5s ease-in-out;
@@ -30,7 +30,7 @@
       &:hover >,
       &.active > {
         a {
-          color: $primary;
+          color: #d992db;
         }
       }
       position: relative;
@@ -44,7 +44,7 @@
       & a {
         font-family: "Metropolis Semi Bold";
         line-height: 2.3;
-        color: $nav-color;
+        color: #fff;
         font-size: 20px;
         @include max-screen(992, 1199) {
           font-size: 18px;

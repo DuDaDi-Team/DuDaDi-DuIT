@@ -28,7 +28,6 @@ const AboutPage = () => {
                         image="./images/banner/1.png"
                     />
                     <IconBoxContainer classOption="section-pt" />
-                    <BrandContainer />
                     <AboutContainer />
                     <ServiceListContainer />
                     <TestimonialReverse />

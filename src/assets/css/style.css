@@ -3930,7 +3930,7 @@ fieldset:disabled .btn {
 }
 
 .btn-dark {
-  color: #fff;
+  color: rgb(122, 11, 11);
   background-color: #263238;
   border-color: #263238;
 }
@@ -7716,6 +7716,11 @@ fieldset:disabled .btn {
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+.button-login {
+  background-color: rgb(95, 40, 224);
+  padding: 12px 25px 13px 25px;
+  border-radius: 50px;
 }
 
 .d-inline-flex {
@@ -15411,7 +15416,7 @@ label {
 
 .is-sticky {
   padding: 15px 0px;
-  background: #fff;
+  background: #6f2ca1;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -15427,7 +15432,7 @@ label {
 }
 
 .main-menu ul li:hover > a, .main-menu ul li.active > a {
-  color: #3e70b6;
+  color: #ffffff;
 }
 
 .main-menu ul li + li {
@@ -15836,7 +15841,7 @@ label {
 
 @media screen and (min-width: 1500px) and (max-width: 1800px) {
   .hero-img {
-    max-width: 48%;
+    max-width: 100%;
   }
 }
 
@@ -15861,7 +15866,7 @@ label {
 
 @media screen and (min-width: 1200px) {
   .hero-shape1 {
-    max-width: 55%;
+    max-width: 100%;
   }
 }
 

@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const IconBox = ({ data }) => {
+    console.log(data);
     return (
         <div className={data.className}>
             <div className="feature-card bg-light">
@@ -18,7 +19,7 @@ const IconBox = ({ data }) => {
                         {data.title}
                     </Link>
                 </h4>
-                <p>{data.excerpt}</p>
+                {/* <p>{data.excerpt}</p> */}
             </div>
         </div>
     );

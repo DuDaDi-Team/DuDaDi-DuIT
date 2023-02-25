@@ -30,7 +30,7 @@ const ServicePage = () => {
                     <TestimonialReverse />
                     <FunFactContainer classOption="mt-0 mt-lg-0" />
                     <TeamContainer classOption="null" />
-                    <BrandContainer />
+                    {/* <BrandContainer /> */}
                     <NewsletterArea />
                     <Footer />
                     <ScrollToTop />

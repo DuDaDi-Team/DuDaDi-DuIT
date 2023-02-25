@@ -24,7 +24,7 @@ const HomePage = () => {
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />
-                    <BrandContainer />
+                    {/* <BrandContainer /> */}
                     <IconBoxContainer classOption="section-pb" />
                     <HomeAboutContainer />
                     <ServiceListContainer />

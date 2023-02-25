@@ -64,6 +64,7 @@
     margin-bottom: 3.75rem;
   }
 }
+
 .hero-img {
   @include min-screen(1200) {
     position: absolute;
@@ -95,7 +96,7 @@
     max-width: 1007px;
   }
   @include min-screen(1200) {
-    max-width: 55%;
+    max-width: 100%;
   }
 }
 .hero-shape2 {
@@ -122,3 +123,15 @@
     bottom: 0;
   }
 }
+.btn-blue {
+  background: linear-gradient(90deg, rgba(13, 95, 157, 1) 5%, rgba(47, 87, 150, 1) 11%, rgba(24, 24, 145, 1) 58%);
+  font-size: 16px !important;
+  max-width: 390px !important;
+  padding: 10px !important;
+  border-radius: 50px !important;
+  color: #c3c1bf !important;
+  & :hover {
+      color: #b12893 !important;
+    }
+}
+
