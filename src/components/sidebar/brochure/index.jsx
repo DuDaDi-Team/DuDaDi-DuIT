@@ -6,6 +6,9 @@ const element = document.createElement("div");
 document.body.appendChild(element);
 
 const Brochure = () => {
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+
     return (
         <div className="sidbar-menu">
             <ul>
@@ -18,7 +21,7 @@ const Brochure = () => {
                         <button>
                             <img
                                 src={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/images/service/icon/small/9.png"
                                 }
                                 alt="logo"
@@ -35,7 +38,7 @@ const Brochure = () => {
                         <button className="border-0">
                             <img
                                 src={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/images/service/icon/small/10.png"
                                 }
                                 alt="logo"

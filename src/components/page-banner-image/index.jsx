@@ -5,6 +5,14 @@ import Parallax from "parallax-js";
 
 const PageBannerImage = ({ image }) => {
     const sceneEl = useRef(null);
+    let validateDataImage = image.substring(0, 1);;
+    let dataImage = image.substring(1, image.length);
+    if(validateDataImage !== "/") {
+        dataImage = image.substring(1, image.length);
+    } else {
+        dataImage = image;
+    }
+    // console.log("dataImage", image.substring(0, 1));
 
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
@@ -15,6 +23,10 @@ const PageBannerImage = ({ image }) => {
 
         return () => parallaxInstance.disable();
     }, []);
+
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+
     return (
         <div
             className="banner-content scene banner-img"
@@ -22,7 +34,7 @@ const PageBannerImage = ({ image }) => {
             ref={sceneEl}
         >
             <div data-depth="0.2">
-                <img src={process.env.PUBLIC_URL + image} alt="img" />
+                <img src={baseUrl + dataImage} alt="img" />
             </div>
         </div>
     );

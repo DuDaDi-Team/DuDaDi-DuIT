@@ -2,6 +2,7 @@
   "name": "react-eslint-starter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/duit-dev",
   "dependencies": {
     "@axetroy/react-download": "^1.1.1",
     "disqus-react": "^1.1.1",

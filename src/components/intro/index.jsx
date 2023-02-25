@@ -5,6 +5,8 @@ import Button from "../button";
 import Parallax from "parallax-js";
 
 const Intro = ({ data }) => {
+    // baseUrl
+    const baseUrl = global.URL;
     const sceneEl = useRef(null);
 
     useEffect(() => {
@@ -23,24 +25,17 @@ const Intro = ({ data }) => {
                     <div className="col-lg-6">
                         <div className="hero-slide-content">
                             <h2
-                                className="title animated btn-blue"
-                            >{ <img
-                                src={`${process.env.PUBLIC_URL}/images/slider/shape/svgexport-1.png`}
-                                alt="shape"
-                            /> }&nbsp;Discover a new ways to enjoy your World!</h2>
-                            <h2
                                 className="title animated"
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             ></h2>
                             <Button
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
-                                text="Join Presale"
+                                text="Get Started"
                                 path="/about"
                             />
-                            
                             <Button
-                                classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
-                                text="Whitepaper"
+                                classOption="btn btn-lg animated delay2 btn-secondary btn-hover-secondary mb-3 mb-sm-0"
+                                text="Book a Meeting"
                                 path="/contact"
                             />
                         </div>
@@ -52,7 +47,11 @@ const Intro = ({ data }) => {
                             ref={sceneEl}
                         >
                             <div data-depth="0.2">
-                                
+                                <img
+                                    className="animated"
+                                    src={`${baseUrl}/${data.image}`}
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
