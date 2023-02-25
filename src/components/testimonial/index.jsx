@@ -2,6 +2,10 @@
 import PropTypes from "prop-types";
 
 const Testimonial = ({ data }) => {
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+    const dataImage = data.authorThumb.substring(1, data.authorThumb.length);
+
     return (
         <div className="testimonial-slide-item swiper-slide">
             <span className="quote zmdi zmdi-quote"></span>
@@ -9,7 +13,7 @@ const Testimonial = ({ data }) => {
             <div className="avater d-flex">
                 <div className="avater-profile">
                     <img
-                        src={process.env.PUBLIC_URL + data.authorThumb}
+                        src={baseUrl + dataImage}
                         alt="avater"
                     />
                 </div>

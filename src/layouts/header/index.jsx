@@ -23,6 +23,10 @@ const Header = () => {
     const handleScroll = ({}) => {
         setScroll(window.scrollY);
     };
+
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+
     return (
         <Fragment>
             <header
@@ -36,7 +40,7 @@ const Header = () => {
                             <div className="header-logo">
                                 <Logo
                                     classOption="d-block"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                                    image={`${baseUrl}/images/logo/logo.png`}
                                 />
                             </div>
                         </div>

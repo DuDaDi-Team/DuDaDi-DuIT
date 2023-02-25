@@ -2,21 +2,24 @@
 import { NavLink } from "react-router-dom";
 
 const MainMenu = () => {
+    // process.env.PUBLIC_URL
+    const baseUrl = global.URL;
+    
     return (
         <nav className="main-menu d-none d-lg-block">
             <ul className="d-flex">
                 <li>
-                    <NavLink exact to="/">
+                    <NavLink exact to={baseUrl + "/"}>
                         Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/about"}>
+                    <NavLink to={baseUrl + "/about"}>
                         About
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}>
+                    <NavLink to={baseUrl + "/service"}>
                         Service
                     </NavLink>
 
@@ -24,7 +27,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/service"}
+                                to={baseUrl + "/service"}
                             >
                                 Service
                             </NavLink>
@@ -33,7 +36,7 @@ const MainMenu = () => {
                             <NavLink
                                 className="sub-menu-link"
                                 to={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/service-details/1"
                                 }
                             >
@@ -43,35 +46,35 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to="/">Pages</NavLink>
+                    <NavLink to={baseUrl + "/team"}>Team</NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/faq"}
+                                to={baseUrl + "/team"}
                             >
-                                faq
+                                team
                             </NavLink>
                         </li>
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/team"}
+                                to={baseUrl + "/faq"}
                             >
-                                team
+                                faq
                             </NavLink>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/blog"}>
+                    <NavLink to={baseUrl + "/blog"}>
                         Blog
                     </NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog"}
+                                to={baseUrl + "/blog"}
                             >
                                 Blog
                             </NavLink>
@@ -80,7 +83,7 @@ const MainMenu = () => {
                             <NavLink
                                 className="sub-menu-link"
                                 to={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/blog-left-sidebar"
                                 }
                             >
@@ -91,7 +94,7 @@ const MainMenu = () => {
                             <NavLink
                                 className="sub-menu-link"
                                 to={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/blog-right-sidebar"
                                 }
                             >
@@ -101,7 +104,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog-details/1"}
+                                to={baseUrl + "/blog-details/1"}
                             >
                                 blog details
                             </NavLink>
@@ -109,7 +112,7 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/contact"}>
+                    <NavLink to={baseUrl + "/contact"}>
                         Contact
                     </NavLink>
                 </li>
