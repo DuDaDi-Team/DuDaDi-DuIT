@@ -12,15 +12,15 @@
 .icon-feature{
   top: 0px;
   position: relative;
-  left: 580px;
-  width: 3%;
+  left: 48%;
+ 
 }
 
 .icon-feature-2 {
-  top: -144px;
+  top: -120px;
   position: relative;
-  left: 580px;
-  width: 3%;
+  left: 48%;
+  width: 4%;
 }
 
 .icon-about{
@@ -28,5 +28,20 @@
 }
 
 .prj-icon{
-  padding: 25px;
+  padding: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.text-prj{
+  font-size: 13px;
+  margin-left: 10px;
+}
+.img-about{
+  width: 100%;
+  border-radius: 5px;
 }

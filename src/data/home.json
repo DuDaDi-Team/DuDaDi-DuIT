@@ -75,6 +75,31 @@
         ]
     },
     {
+        "iconBoxx": [
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/banner-persegi-panjanga-1.png",
+                "title": "Strong Security",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            },
+            {
+                "id": 2,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/banner-persegi-panjanga-2.png",
+                "title": "Creative Idea",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            },
+            {
+                "id": 3,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/banner-persegi-panjanga-3.png",
+                "title": "Best Service",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            }
+        ]
+    },
+    {
         "testimonial": [
             {
                 "id": 1,

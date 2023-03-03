@@ -69,6 +69,52 @@
     }
   }
 }
+.grid-item-2 {
+  .feature-card {
+    position: relative;
+    overflow: hidden;
+    padding: 2.8125rem 1.875rem;
+    @include max-screen(992, 1199) {
+      padding: 25px;
+    }
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    &.bg-light {
+      &:hover,
+      &.active {
+        background-color: $lime-600 !important;
+        box-shadow: 0px 16px 27px 0px rgba(0, 0, 0, 0.08);
+      }
+    }
+    .title {
+      color: $card-headings-color;
+      text-transform: capitalize;
+      font-weight: 600;
+      line-height: 1.25;
+      font-size: 24px;
+      a {
+        color: inherit;
+      }
+      @include max-screen(992, 1199) {
+        font-size: 18px;
+      }
+      @include max-screen(767) {
+        font-size: 20px;
+      }
+    }
+    &:hover,
+    &.active {
+      .card-shape-light {
+        top: -30px;
+        right: -30px;
+      }
+      .card-shape-dark {
+        top: -45px;
+        right: -35px;
+      }
+    }
+  }
+}
 
 /*--------------------------------------
 /*  2 service card

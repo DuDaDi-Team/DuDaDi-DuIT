@@ -7,40 +7,46 @@ import Team from "../../../components/team";
 import HomeData from "../../../data/home.json";
 
 const TeamContainer = ({ classOption }) => {
+    
     return (
-        <div className={`team-section overflow-hidden ${classOption}`}>
-            <div className="container position-relative">
-                <div className="row align-items-center">
-                    <div className="col-lg-5">
-                        <div className="team-content-wrap">
+        <div className={`team-section overflow-hidden`}>
+            <div className="container">
+                <div className="row mb-n7">
+                    <div className="col-xl-5 col-lg-6 mb-7">
+                        <div className="testimonial-wrap">
+                        <img
+                            className=""
+                            src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
+                            alt="images_not_found"
+                        />
                             <SectionTitle
                                 classOption="title-section"
-                                subTitle="TEAM"
-                                title="People, <span class='text-primary'>Behind</span> the Screen"
-                                excerptClassOption="mb-5"
-                                excerpt="Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain"
+                                subTitle=""
+                                title="Build, edit and create a custom test framework in minutes"
                             />
-                            <p className="high-light mb-8">
-                                Pleasure rationally encounter consequences that
-                                are extremely painful. Nor again is there
-                            </p>
-                            <Button
-                                classOption="btn btn-lg btn-dark btn-hover-dark"
-                                text="View more"
-                                path="/team"
-                            />
+                            <h5 className="happy-customer">
+                                More over{" "}
+                                <span className="font-weight-bold">2500</span>{" "}
+                                happy customer
+                            </h5>
                         </div>
                     </div>
-                    <div className="col-lg-7">
-                        <div className="new-team-members">
-                            {HomeData[5].team &&
-                                HomeData[5].team.map((single, key) => {
-                                    return <Team key={key} data={single} />;
-                                })}
+                    <div className="col-xl-7 col-lg-6 mb-7">
+                    <div
+                        className="testimonial-photo scene mt-10 mt-lg-0"
+                        id="scene"
+                        >
+                            <div data-depth="0.2">
+                                <img
+                                    src={`${process.env.PUBLIC_URL}/images/slider/about-2.png`}
+                                    alt="Buznex"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                
+                </div>
         </div>
     );
 };

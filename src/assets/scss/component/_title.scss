@@ -3,18 +3,18 @@
     color: $dark;
     font-weight: 700;
     line-height: 1.19;
-    font-size: 42px;
+    font-size: 27px;
     @include max-screen(992, 1199) {
-      font-size: 40px;
+      font-size: 25px;
     }
 
     @include max-screen(991) {
-      font-size: 30px;
+      font-size: 16px;
       margin-bottom: 1rem;
     }
 
     @include max-screen(767) {
-      font-size: 30px;
+      font-size: 16px;
     }
 
     margin-bottom: 1.6rem;

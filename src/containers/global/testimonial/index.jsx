@@ -47,7 +47,7 @@ const TestimonialContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/testimonial/1.png`}
+                                    src={`${process.env.PUBLIC_URL}/images/slider/about-1.png`}
                                     alt="Buznex"
                                 />
                             </div>
@@ -55,10 +55,15 @@ const TestimonialContainer = () => {
                     </div>
                     <div className="col-xl-5 col-lg-6 mb-7">
                         <div className="testimonial-wrap">
+                        <img
+                            className=""
+                            src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
+                            alt="images_not_found"
+                        />
                             <SectionTitle
                                 classOption="title-section"
-                                subTitle="TESTIMONIALS"
-                                title="Don’t Believe us Check <span class='text-primary'>Clients</span> word"
+                                subTitle=""
+                                title="Explainer video that simplify your brand's message"
                             />
                             <h5 className="happy-customer">
                                 More over{" "}

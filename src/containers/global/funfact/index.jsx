@@ -7,7 +7,7 @@ import HomeData from "../../../data/home.json";
 const FunFactContainer = ({ classOption }) => {
     return (
         <div
-            className={`funfact-section section-pb position-relative ${classOption}`}
+            className={`funfact-section position-relative ${classOption}`}
         >
             <div className="container">
                 <div className="row mb-n7">

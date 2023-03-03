@@ -252,16 +252,15 @@ const Footer = () => {
                         <div className="col-12">
                             <div className="copyright-info text-center">
                                 <p>
-                                    Copyright &copy; 2021 Made with{" "}
-                                    <i className="icofont-heart-alt"></i> By{" "}
-                                    <a
+                                    Copyright &copy; 2023 Dunia Inovasi Teknologi  
+                                    {/* <i className="icofont-heart-alt"></i> By{" "} */}
+                                    {/* <a
                                         href="https://themeforest.net/user/codecarnival/portfolio"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
                                         codecarnival
-                                    </a>
-                                    , All Rights Reserved
+                                    </a> */}
                                 </p>
                             </div>
                         </div>

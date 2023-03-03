@@ -1,52 +1,44 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
-import SectionTitle from "../../../components/section-title";
+import PropTypes from "prop-types";
+import Button from "../../../components/button";
+import IconBox from "../../../components/icon-box";
 import ServiceBox from "../../../components/service-box";
+import SectionTitle from "../../../components/section-title";
+import HomeData from "../../../data/home.json";
 import ServiceData from "../../../data/service.json";
-
-const ServiceListContainer = () => {
+const IconBoxContainer = ({ classOption }) => {
     return (
-        <div className="service-section section-pt position-relative">
-            <div className="container">
-                <div className="row">
-                    <div className="col-xl-6 col-lg-8 mx-auto">
+        <div className={`feature-section position-relative ${classOption}`}>
+            <img
+                className="path-img"
+                src={`${process.env.PUBLIC_URL}/images/feature/shape.png`}
+                alt="images_not_found"
+            />
+            <div className="container custom-container">
+                 <img
+                            className="icon-feature"
+                            src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
+                            alt="images_not_found"
+                        />
+                <div className="row g-0 align-items-center">
+                    <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
                         <SectionTitle
-                            classOption="title-section mb-10 pb-10 text-center"
-                            subTitle="services"
-                            title="Check <span class='text-primary'>our</span> Services"
-                            excerptClassOption="null"
-                            excerpt="Pleasure rationally encounter consequences that are <br class='d-none d-xl-block' /> painful. Nor again is there anyone who pursues"
+                            classOption="title-section"
+                            subTitle=""
+                            title="How it Works"
+                            excerptClassOption="mb-10"
+                            excerpt="Pleasure rationally encounter consequences that are extremely
+                            painful. Nor again is there anyone who loves or pursues or
+                            desires to obtain"
                         />
                     </div>
-                </div>
 
-                <div className="row mb-n7 align-items-center">
-                    <div className="col-md-6 col-xl-4 mb-7">
-                        <div className="service-media-wrapper media-spacing-left">
-                            {ServiceData &&
-                                ServiceData.slice(0, 3).map((single, key) => {
-                                    return (
-                                        <ServiceBox data={single} key={key} />
-                                    );
-                                })}
-                        </div>
-                    </div>
-
-                    <div className="col-xl-4 mb-7 order-md-1 order-xl-0">
-                        <div className="service-media-img text-center">
-                            <img
-                                src={`${process.env.PUBLIC_URL}/images/service/media.png`}
-                                alt="images_not_found"
-                            />
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-xl-4 mb-7">
-                        <div className="service-media-wrapper media-spacing-right">
-                            {ServiceData &&
-                                ServiceData.slice(3, 6).map((single, key) => {
-                                    return (
-                                        <ServiceBox data={single} key={key} />
-                                    );
+                    <div className="col-12">
+                        <div id="grid" className="grid row mb-n7">
+                            {ServiceData[2].iconBox &&
+                                ServiceData[2].iconBox.map((single, key) => {
+                                    return <ServiceBox key={key} data={single} />;
                                 })}
                         </div>
                     </div>
@@ -56,4 +48,12 @@ const ServiceListContainer = () => {
     );
 };
 
-export default ServiceListContainer;
+IconBoxContainer.propTypes = {
+    classOption: PropTypes.string,
+};
+
+IconBoxContainer.defaultProps = {
+    classOption: "section-pb",
+};
+
+export default IconBoxContainer;
