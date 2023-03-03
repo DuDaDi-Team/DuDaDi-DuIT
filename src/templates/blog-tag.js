@@ -27,7 +27,7 @@ const BlogTag = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Blog Tag" />
+                <SEO title="Dunia Inovasi Teknologi" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

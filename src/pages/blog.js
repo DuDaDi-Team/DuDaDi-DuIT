@@ -14,7 +14,7 @@ const BlogPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Blog" />
+                <SEO title="Dunia Inovasi Teknologi" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

@@ -13,7 +13,7 @@ const TeamPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Team" />
+                <SEO title="Dunia Inovasi Teknologi" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

@@ -14,7 +14,7 @@ const BlogLeftSidebarPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Blog Left Sidebar" />
+                <SEO title="Dunia Inovasi Teknologi" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
