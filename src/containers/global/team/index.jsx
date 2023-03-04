@@ -7,7 +7,7 @@ import Team from "../../../components/team";
 import HomeData from "../../../data/home.json";
 
 const TeamContainer = ({ classOption }) => {
-    
+    const baseUrl = global.URL;
     return (
         <div className={`team-section overflow-hidden`}>
             <div className="container">

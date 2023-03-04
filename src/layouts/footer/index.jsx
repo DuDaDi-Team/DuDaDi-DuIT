@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="footer-top position-relative">
                 <img
                     className="footer-shape"
-                    src={process.env.PUBLIC_URL + "/images/footer/1.png"}
+                    src={baseUrl + "/images/footer/1.png"}
                     alt="shape"
                 />
                 <div className="container">
@@ -20,7 +20,7 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <Logo
                                     classOption="footer-logo mb-9"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
+                                    image={`${baseUrl}/images/logo/logo-footer.png`}
                                 />
                                 <p>
                                     Pleasure rationally encounter consequences
@@ -66,7 +66,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/about"
                                             }
                                         >
@@ -77,7 +77,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/service"
                                             }
                                         >
@@ -88,7 +88,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/about"
                                             }
                                         >
@@ -99,7 +99,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL + "/blog"
+                                                baseUrl + "/blog"
                                             }
                                         >
                                             Blog Post
@@ -109,7 +109,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL + "/team"
+                                                baseUrl + "/team"
                                             }
                                         >
                                             Our Clients
@@ -119,7 +119,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 "/contact"
                                             }
                                         >
@@ -137,7 +137,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 `/service-details/2`
                                             }
                                         >
@@ -148,7 +148,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 `/service-details/3`
                                             }
                                         >
@@ -159,7 +159,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 `/service-details/4`
                                             }
                                         >
@@ -170,7 +170,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 `/service-details/1`
                                             }
                                         >
@@ -181,7 +181,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 `/service-details/5`
                                             }
                                         >
@@ -192,7 +192,7 @@ const Footer = () => {
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL +
+                                                baseUrl +
                                                 `/service-details/6`
                                             }
                                         >
