@@ -17186,6 +17186,7 @@ textarea.form-control {
 ----------------------------------------*/
 .banner-section {
   padding-top: 155px;
+  background-color: #3e70b6;
 }
 
 @media screen and (max-width: 991px) {
@@ -17231,6 +17232,7 @@ textarea.form-control {
 
 .banner-content p {
   font-size: 18px;
+  color: white;
 }
 
 @media screen and (max-width: 991px) {
