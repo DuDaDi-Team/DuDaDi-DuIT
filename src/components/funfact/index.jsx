@@ -6,12 +6,12 @@ import VisibilitySensor from "react-visibility-sensor";
 
 const Funfact = ({ data }) => {
     const [didViewCountUp, setDidViewCountUp] = useState(false);
-
     const onVisibilityChange = (isVisible) => {
         if (isVisible) {
             setDidViewCountUp(true);
         }
     };
+    const baseUrl = global.URL;
     return (
         <div className="fanfact text-md-left text-center">
             <span className="title">

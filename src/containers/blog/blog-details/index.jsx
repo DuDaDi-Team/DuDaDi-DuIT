@@ -12,6 +12,7 @@ import BlogDetailsWrap from "../../../components/blog-details";
 import Comment from "../../../components/comment";
 
 const BlogDetailsContainer = ({ data }) => {
+    const baseUrl = global.URL;
     return (
         <div className="blog-section section-py">
             <div className="container">

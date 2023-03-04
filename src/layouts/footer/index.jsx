@@ -5,6 +5,7 @@ import Logo from "../../components/logo";
 import SocialIcon from "../../components/social-icon";
 
 const Footer = () => {
+    const baseUrl = global.URL;
     return (
         <footer className="footer-section">
             <div className="footer-top position-relative">

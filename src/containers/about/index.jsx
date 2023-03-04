@@ -6,7 +6,7 @@ import Parallax from "parallax-js";
 
 const AboutContainer = () => {
     const sceneEl = useRef(null);
-
+    const baseUrl = global.URL;
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
             relativeInput: true,
@@ -57,7 +57,7 @@ const AboutContainer = () => {
                         >
                             <div data-depth="0.2">
                                 <img
-                                    src={`${process.env.PUBLIC_URL}/images/about/2.png`}
+                                    src={`${baseUrl}/images/about/2.png`}
                                     alt="about"
                                 />
                             </div>

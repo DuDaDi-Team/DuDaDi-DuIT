@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import BlogGrid from "../../../components/blog";
 
 const BlogItemContainer = ({ data }) => {
+    const baseUrl = global.URL;
     return (
         <section className="blog-section section-py">
             <div className="container">

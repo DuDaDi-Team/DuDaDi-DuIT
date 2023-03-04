@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Button from "../../button";
 
 const MainMenu = () => {
+    const baseUrl = global.URL;
     return (
         <nav className="main-menu d-none d-lg-block">
             <ul className="d-flex">
@@ -12,12 +13,12 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/about"}>
+                    <NavLink to={baseUrl + "/about"}>
                         About
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}>
+                    <NavLink to={baseUrl + "/service"}>
                         Service
                     </NavLink>
                 </li>
@@ -27,7 +28,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/faq"}
+                                to={baseUrl + "/faq"}
                             >
                                 faq
                             </NavLink>
@@ -35,7 +36,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/team"}
+                                to={baseUrl + "/team"}
                             >
                                 team
                             </NavLink>
@@ -43,14 +44,14 @@ const MainMenu = () => {
                     </ul> */}
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/blog"}>
+                    <NavLink to={baseUrl + "/blog"}>
                         Team
                     </NavLink>
                     {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog"}
+                                to={baseUrl + "/blog"}
                             >
                                 Blog
                             </NavLink>
@@ -59,7 +60,7 @@ const MainMenu = () => {
                             <NavLink
                                 className="sub-menu-link"
                                 to={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/blog-left-sidebar"
                                 }
                             >
@@ -70,7 +71,7 @@ const MainMenu = () => {
                             <NavLink
                                 className="sub-menu-link"
                                 to={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     "/blog-right-sidebar"
                                 }
                             >
@@ -80,7 +81,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={process.env.PUBLIC_URL + "/blog-details/1"}
+                                to={baseUrl + "/blog-details/1"}
                             >
                                 blog details
                             </NavLink>
@@ -88,12 +89,12 @@ const MainMenu = () => {
                     </ul> */}
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/contact"}>
+                    <NavLink to={baseUrl + "/contact"}>
                         Contact
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink style={{ backgroundColor: "#5f28e0",paddingTop:"12px",paddingLeft:"25px",paddingBottom:"12px",paddingRight:"25px",borderRadius:"50px"}} to={process.env.PUBLIC_URL + "/contact"}>
+                    <NavLink style={{ backgroundColor: "#5f28e0",paddingTop:"12px",paddingLeft:"25px",paddingBottom:"12px",paddingRight:"25px",borderRadius:"50px"}} to={baseUrl + "/contact"}>
                         Login
                     </NavLink>
                 </li>

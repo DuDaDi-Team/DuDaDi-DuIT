@@ -5,7 +5,7 @@ import Parallax from "parallax-js";
 
 const PageBannerImage = ({ image }) => {
     const sceneEl = useRef(null);
-
+    const baseUrl = global.URL;
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
             relativeInput: true,
@@ -22,7 +22,7 @@ const PageBannerImage = ({ image }) => {
             ref={sceneEl}
         >
             <div data-depth="0.2">
-                <img src={process.env.PUBLIC_URL + image} alt="img" />
+                <img src={baseUrl + image} alt="img" />
             </div>
         </div>
     );

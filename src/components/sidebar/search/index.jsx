@@ -2,6 +2,7 @@
 import React from "react";
 
 const SidebarSearch = () => {
+    const baseUrl = global.URL;
     return (
         <div className="widget-content">
             <div className="widget-search">

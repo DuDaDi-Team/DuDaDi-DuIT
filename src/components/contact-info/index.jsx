@@ -3,6 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const ContactInfo = ({ data }) => {
+    const baseUrl = global.URL;
     return (
         <div className={data.classOption}>
             <h4 className="title">{data.title}</h4>

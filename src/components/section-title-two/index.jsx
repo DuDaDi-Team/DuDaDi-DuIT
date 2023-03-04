@@ -8,6 +8,7 @@ const SectionTitleTwo = ({
     classOption,
     excerptClassOption,
 }) => {
+    const baseUrl = global.URL;
     return (
         <div className="row justify-content-between">
             <div className="col-xl-3 col-lg-4">

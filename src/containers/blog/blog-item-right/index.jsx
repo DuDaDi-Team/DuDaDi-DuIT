@@ -11,6 +11,7 @@ import SidebarTitle from "../../../components/sidebar/sidebar-title";
 import BlogData from "../../../data/blog.json";
 
 const BlogItemRightContainer = ({ data }) => {
+    const baseUrl = global.URL;
     return (
         <div className="blog-section section-py">
             <div className="container">

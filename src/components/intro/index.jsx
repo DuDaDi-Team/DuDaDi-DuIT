@@ -5,8 +5,8 @@ import Button from "../button";
 import Parallax from "parallax-js";
 
 const Intro = ({ data }) => {
+    const baseUrl = global.URL;
     const sceneEl = useRef(null);
-
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
             relativeInput: true,
@@ -25,7 +25,7 @@ const Intro = ({ data }) => {
                             <h2
                                 className="title animated btn-blue"
                             >{ <img
-                                src={`${process.env.PUBLIC_URL}/images/slider/shape/svgexport-1.png`}
+                                src={`${baseUrl}/images/slider/shape/svgexport-1.png`}
                                 alt="shape"
                             /> }&nbsp;Discover a new ways to enjoy your World!</h2>
                             <h2

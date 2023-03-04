@@ -19,7 +19,7 @@ const Header = () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-
+    const baseUrl = global.URL;
     const handleScroll = ({}) => {
         setScroll(window.scrollY);
     };
@@ -36,7 +36,7 @@ const Header = () => {
                             <div className="header-logo">
                                 <Logo
                                     classOption="d-block"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                                    image={`${baseUrl}/images/logo/logo.png`}
                                 />
                             </div>
                         </div>

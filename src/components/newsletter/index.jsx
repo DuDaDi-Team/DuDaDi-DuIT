@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const CustomForm = ({ status, message, onValidated }) => {
+    const baseUrl = global.URL;
     let email;
     const submit = (e) => {
         e.preventDefault();

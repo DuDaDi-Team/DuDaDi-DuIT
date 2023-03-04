@@ -5,12 +5,13 @@ import PropTypes from "prop-types";
 import { slugify } from "../../utils";
 
 const BlogGrid = ({ data, classOption }) => {
+    const baseUrl = global.URL;
     return (
         <div className="blog-card">
             <div className={`thumb bg-light text-center ${classOption}`}>
-                <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>
+                <Link to={baseUrl + `/blog-details/${data.id}`}>
                     <img
-                        src={`${process.env.PUBLIC_URL}/${data.media.gridImage}`}
+                        src={`${baseUrl}/${data.media.gridImage}`}
                         alt="img"
                     />
                 </Link>
@@ -18,7 +19,7 @@ const BlogGrid = ({ data, classOption }) => {
             <div className="blog-content">
                 <Link
                     to={
-                        process.env.PUBLIC_URL +
+                        baseUrl +
                         `/author/${slugify(data.author)}`
                     }
                 >
@@ -26,13 +27,13 @@ const BlogGrid = ({ data, classOption }) => {
                 </Link>
                 <span className="separator">-</span>
                 <Link
-                    to={process.env.PUBLIC_URL + `/date/${slugify(data.date)}`}
+                    to={baseUrl + `/date/${slugify(data.date)}`}
                 >
                     <span className="blog-meta date">{data.date}</span>
                 </Link>
                 <h3 className="title">
                     <Link
-                        to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}
+                        to={baseUrl + `/blog-details/${data.id}`}
                     >
                         {data.title}
                     </Link>

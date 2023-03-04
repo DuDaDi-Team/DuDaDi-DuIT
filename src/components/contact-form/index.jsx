@@ -6,6 +6,7 @@ const ContactForm = () => {
     const { register, errors } = useForm({
         mode: "onBlur",
     });
+    const baseUrl = global.URL;
     return (
         <Fragment>
             <form

@@ -27,7 +27,7 @@ const ServiceCate = ({ data }) => {
             categories.push(obj);
         }
     });
-    console.log(categories);
+    const baseUrl = global.URL;
     return (
         <div className="sidbar-menu">
             <ul>
@@ -37,7 +37,7 @@ const ServiceCate = ({ data }) => {
                             <NavLink
                                 activeClassName="active"
                                 to={
-                                    process.env.PUBLIC_URL +
+                                    baseUrl +
                                     `/service-details/${slugify(single.id)}`
                                 }
                             >

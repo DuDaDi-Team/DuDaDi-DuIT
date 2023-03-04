@@ -3,6 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const SidebarTitle = ({ title }) => {
+    const baseUrl = global.URL;
     return (
         <React.Fragment>
             <h3 className="widget-title">{title}</h3>

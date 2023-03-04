@@ -9,6 +9,7 @@ const Comment = ({ url, id, title }) => {
         identifier: `${id}`,
         title: title,
     };
+    const baseUrl = global.URL;
     return (
         <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     );

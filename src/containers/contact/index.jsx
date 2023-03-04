@@ -6,6 +6,7 @@ import ContactInfo from "../../components/contact-info";
 import ContactData from "../../data/contact.json";
 
 const ContactContainer = () => {
+    const baseUrl = global.URL;
     return (
         <section className="contact-section section-py">
             <div className="container">

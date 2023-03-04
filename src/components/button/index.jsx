@@ -4,10 +4,11 @@ import PropTypes from "prop-types";
 import React from "react";
 
 const Button = ({ classOption, text, path }) => {
+    const baseUrl = global.URL;
     return (
         <React.Fragment>
             <Link
-                to={process.env.PUBLIC_URL + path}
+                to={baseUrl + path}
                 className={`${classOption}`}
             >
                 {text}

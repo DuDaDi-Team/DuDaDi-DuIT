@@ -6,7 +6,7 @@ const ScrollToTop = (props) => {
     const onClickHandler = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
-
+    const baseUrl = global.URL;
     useEffect(() => {
         var position = window.pageYOffset;
 

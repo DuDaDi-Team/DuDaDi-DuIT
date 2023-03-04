@@ -2,10 +2,11 @@
 import PropTypes from "prop-types";
 
 const SocialIcon = ({ path, icon, classOption }) => {
+    const baseUrl = global.URL;
     return (
         <a
             className={`${classOption}`}
-            href={process.env.PUBLIC_URL + path}
+            href={baseUrl + path}
             target="_blank"
             rel="noopener noreferrer"
         >

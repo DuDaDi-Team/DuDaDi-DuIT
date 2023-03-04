@@ -24,6 +24,7 @@ const SidebarTag = ({ data }) => {
             allTags.push(obj);
         }
     });
+    const baseUrl = global.URL;
     return (
         <div className="widget-tags">
             {allTags.map((single, i) => {
@@ -31,7 +32,7 @@ const SidebarTag = ({ data }) => {
                     <Link
                         key={i}
                         className="widget-tag-link"
-                        to={process.env.PUBLIC_URL + `/tag/${single.slug}`}
+                        to={baseUrl + `/tag/${single.slug}`}
                     >
                         {single.title}
                     </Link>

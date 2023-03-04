@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const SidebarPost = ({ data }) => {
+    const baseUrl = global.URL;
     return (
         <div className="widget-post-wrap">
             {data.slice(0, 3).map((single, i) => {
@@ -10,13 +11,13 @@ const SidebarPost = ({ data }) => {
                     <div key={i} className="widget-post-list">
                         <Link
                             to={
-                                process.env.PUBLIC_URL +
+                                baseUrl +
                                 `/blog-details/${single.id}`
                             }
                             className="post-thumb"
                         >
                             <img
-                                src={`${process.env.PUBLIC_URL}/${single.media.rcImage}`}
+                                src={`${baseUrl}/${single.media.rcImage}`}
                                 alt="img"
                             />
                         </Link>
@@ -24,7 +25,7 @@ const SidebarPost = ({ data }) => {
                             <h3 className="widget-sub-title">
                                 <Link
                                     to={
-                                        process.env.PUBLIC_URL +
+                                        baseUrl +
                                         `/blog-details/${single.id}`
                                     }
                                 >

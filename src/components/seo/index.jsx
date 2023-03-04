@@ -4,6 +4,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 const SEO = ({ title }) => {
+    const baseUrl = global.URL;
     return (
         <Helmet>
             <meta charSet="utf-8" />

@@ -8,6 +8,7 @@ const SectionTitle = ({
     classOption,
     excerptClassOption,
 }) => {
+    const baseUrl = global.URL;
     return (
         <div className={`title-section ${classOption}`}>
             <span className="sub-title">{subTitle}</span>
