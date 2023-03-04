@@ -5,7 +5,7 @@ import SectionTitle from "../../../components/section-title";
 
 const NewsletterArea = () => {
     return (
-        <div className="news-letter-section section-pb">
+        <div className="news-letter-section section-pb adjust-top">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7 col-xl-6 mx-auto">

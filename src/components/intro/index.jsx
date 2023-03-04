@@ -33,12 +33,14 @@ const Intro = ({ data }) => {
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             ></h2>
                             <Button
+                                className=" hero-btn"
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
                                 text="Join Presale"
                                 path="/about"
                             />
                             
                             <Button
+                                className=" hero-btn"
                                 classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
                                 text="Whitepaper"
                                 path="/contact"

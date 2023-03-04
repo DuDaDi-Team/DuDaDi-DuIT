@@ -14,6 +14,18 @@
     width: 100%;
   }
 }
+.grid-item-2 {
+  float: left;
+  width: 16.333%;
+
+  @include max-screen(576, 991) {
+    width: 50%;
+  }
+
+  @include max-screen(575) {
+    width: 100%;
+  }
+}
 
 .card-mt-75 {
   @include min-screen(576) {

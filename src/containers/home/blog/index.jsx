@@ -6,7 +6,7 @@ import BlogGrid from "../../../components/blog";
 
 const HomeBlog = () => {
     return (
-        <div className="blog-section section-pb">
+        <div className="blog-section section-pb adjust-top">
             <div className="container">
                 <SectionTitleTwo
                     classOption="title-section mb-lg-10 pb-lg-1"

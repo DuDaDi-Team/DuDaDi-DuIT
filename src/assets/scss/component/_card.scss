@@ -27,6 +27,8 @@
   .feature-card {
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
     padding: 2.8125rem 1.875rem;
     @include max-screen(992, 1199) {
       padding: 25px;
@@ -77,6 +79,7 @@
     @include max-screen(992, 1199) {
       padding: 25px;
     }
+         
     border-radius: 6px;
     transition: all 0.5s ease-in-out;
     &.bg-light {
@@ -115,6 +118,7 @@
     }
   }
 }
+
 
 /*--------------------------------------
 /*  2 service card

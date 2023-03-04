@@ -9,9 +9,10 @@ const HomeAboutContainer = () => {
     return (
         <div className="about-us position-relative">
             <div className="container">
-                <div className="row g-0 align-items-center">
-                    <img
-                            className="icon-feature-2"
+                <div className="row g-0 align-items-center about-center">
+                    <div className="container custom-container">
+<img
+                            className="icon-feature"
                             src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
                             alt="images_not_found"
                         />
@@ -27,7 +28,7 @@ const HomeAboutContainer = () => {
                         />
                     </div>
                 </div>
-                <div className="row mb-n7">
+                <div className="row mb-n7" style={ {justifyContent:"space-around"}}>
                     <div className="col-xl-5 col-lg-6 mb-7">
                         <div className="about-content">
                         <img
@@ -76,6 +77,8 @@ const HomeAboutContainer = () => {
                         </div>
                     </div>
                 </div>
+                    </div>
+                       
             </div>
             <img
                 className="about-shape"

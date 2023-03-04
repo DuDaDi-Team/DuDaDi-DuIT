@@ -26,6 +26,13 @@
   padding: 5px;
   box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
   border-radius: 5px;
+        @include max-screen(576, 991) {
+            width: 50%;
+          }
+        
+          @include max-screen(575) {
+            width: 100%;
+          }
 }
 .single-service-list {
   margin-bottom: 60px;
