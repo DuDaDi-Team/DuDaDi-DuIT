@@ -6,6 +6,13 @@ import Parallax from "parallax-js";
 const PageBannerImage = ({ image }) => {
     const sceneEl = useRef(null);
     const baseUrl = global.URL;
+    let validateDataImage = image.substring(0, 1);;
+    let dataImage = image.substring(1, image.length);
+    if(validateDataImage !== "/") {
+        dataImage = image.substring(1, image.length);
+    } else {
+        dataImage = image;
+    }
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
             relativeInput: true,
@@ -22,7 +29,7 @@ const PageBannerImage = ({ image }) => {
             ref={sceneEl}
         >
             <div data-depth="0.2">
-                <img src={baseUrl + image} alt="img" />
+                <img src={baseUrl + dataImage} alt="img" />
             </div>
         </div>
     );

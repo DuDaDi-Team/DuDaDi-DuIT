@@ -53,7 +53,7 @@ const MobileMenu = ({ show, onClose }) => {
                     <nav id="offcanvasNav" className="offcanvas-menu">
                         <ul>
                             <li>
-                                <NavLink exact to="/">
+                                <NavLink exact to={baseUrl + "/"}>
                                     Home
                                 </NavLink>
                             </li>

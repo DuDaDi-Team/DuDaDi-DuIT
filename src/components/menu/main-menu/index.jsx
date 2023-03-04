@@ -8,7 +8,7 @@ const MainMenu = () => {
         <nav className="main-menu d-none d-lg-block">
             <ul className="d-flex">
                 <li>
-                    <NavLink exact to="/">
+                    <NavLink exact to={baseUrl + "/"}>
                         Home
                     </NavLink>
                 </li>
@@ -23,7 +23,9 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/">Roadmap</NavLink>
+                    <NavLink to={baseUrl + "/team"}>
+                        Team
+                    </NavLink>
                     {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
@@ -45,7 +47,7 @@ const MainMenu = () => {
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/blog"}>
-                        Team
+                        Blog
                     </NavLink>
                     {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
