@@ -23,28 +23,10 @@ const Intro = ({ data }) => {
                     <div className="col-lg-6">
                         <div className="hero-slide-content">
                             <h2
-                                className="title animated btn-blue"
-                            >{ <img
-                                src={`${baseUrl}/images/slider/shape/svgexport-1.png`}
-                                alt="shape"
-                            /> }&nbsp;Discover a new ways to enjoy your World!</h2>
-                            <h2
                                 className="title animated"
                                 dangerouslySetInnerHTML={{ __html: data.title }}
                             ></h2>
-                            <Button
-                                className=" hero-btn"
-                                classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
-                                text="Join Presale"
-                                path="/about"
-                            />
                             
-                            <Button
-                                className=" hero-btn"
-                                classOption="btn btn-lg animated delay1 btn-dark btn-hover-dark me-4 mb-3 mb-sm-0"
-                                text="Whitepaper"
-                                path="/contact"
-                            />
                         </div>
                     </div>
                     <div className="col-lg-6">

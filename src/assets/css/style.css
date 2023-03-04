@@ -15449,8 +15449,8 @@ label {
   font-family: "Metropolis Semi Bold";
   line-height: 2.3;
   color: #181c51;
-  font-size: 20px;
-  text-transform: capitalize;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {

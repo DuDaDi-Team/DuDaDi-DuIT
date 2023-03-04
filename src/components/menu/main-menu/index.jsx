@@ -9,30 +9,105 @@ const MainMenu = () => {
             <ul className="d-flex">
                 <li>
                     <NavLink exact to={baseUrl + "/"}>
-                        Home
+                        Beranda
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/about"}>
-                        About
+                        Profil
                     </NavLink>
+                    <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/blog"}
+                            >
+                                Visi Misi
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    baseUrl +
+                                    "/blog-left-sidebar"
+                                }
+                            >
+                                Partner
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    baseUrl +
+                                    "/blog-right-sidebar"
+                                }
+                            >
+                                Projek
+                            </NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/service"}>
-                        Service
+                        Layanan
                     </NavLink>
+                    <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/blog"}
+                            >
+                                software developmen
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    baseUrl +
+                                    "/blog-left-sidebar"
+                                }
+                            >
+                                it solution
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    baseUrl +
+                                    "/blog-right-sidebar"
+                                }
+                            >
+                                sistem infomasi
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    baseUrl +
+                                    "/blog-right-sidebar"
+                                }
+                            >
+                                it konsultan
+                            </NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/team"}>
-                        Team
+                        Tim
                     </NavLink>
-                    {/* <ul className="sub-menu">
+                    <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
                                 to={baseUrl + "/faq"}
                             >
-                                faq
+                                direksi
                             </NavLink>
                         </li>
                         <li className="sub-menu-item">
@@ -40,14 +115,22 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={baseUrl + "/team"}
                             >
-                                team
+                                developer
                             </NavLink>
                         </li>
-                    </ul> */}
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/team"}
+                            >
+                                marketing
+                            </NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/blog"}>
-                        Blog
+                        Artikel
                     </NavLink>
                     {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
@@ -92,12 +175,12 @@ const MainMenu = () => {
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/contact"}>
-                        Contact
+                        Kontak
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink style={{ backgroundColor: "#5f28e0",paddingTop:"12px",paddingLeft:"25px",paddingBottom:"12px",paddingRight:"25px",borderRadius:"50px"}} to={baseUrl + "/contact"}>
-                        Login
+                    <NavLink to={baseUrl + "/contact"}>
+                        Karir
                     </NavLink>
                 </li>
             </ul>
