@@ -20,11 +20,11 @@ const HomeAboutVisiMisiContainer = () => {
                         <SectionTitle
                             classOption="title-section"
                             subTitle=""
-                            title="Watch our Project Video"
+                            title="PROFIL DITEK"
                             excerptClassOption="mb-10"
-                            excerpt="Pleasure rationally encounter consequences that are extremely
-                            painful. Nor again is there anyone who loves or pursues or
-                            desires to obtain"
+                            excerpt="Dunia Inovasi Teknologi (DITEK) Indonesia merupakan perusahaan penyedia layanan, solusi dan produk inovasi teknologi informasi. DITEK berkantor pusat di Jakarta dan memiliki berbagai proyek dengan patner-patner yan ada di Jakarta.
+
+                            Berpengalaman lebih dari satu dekade, saat ini DITEK telah melayani 500 klien B2B di seluruh Indonesia. Seiring perkembangan perusahaan, sekarang DITEK tidak hanya menghadirkan layanan dan produk-produk digital tapi juga menjadi holding company yang melahirkan rintisan startup di bidang teknologi informasi."
                         />
                     </div>
                 </div>
@@ -47,8 +47,8 @@ const HomeAboutVisiMisiContainer = () => {
                                     alt="bg-shape"
                                 />
                                 <div className="text-prj">
-                                    <h2 style={{fontSize:"20px"}}>Lots of Pre-Made Widgets</h2>
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna sapien, ullamcorper id varius a</span>
+                                    <h2 style={{fontSize:"20px"}}>VISI</h2>
+                                    <span>Menjadi sebuah perusahaan yang menciptakan masa depan yang lebih baik melalui teknologi dan informasi yang cerdas, terhubung, dan berkelanjutan</span>
                                 </div>
                             </div>
                             <div className="prj-icon">
@@ -58,21 +58,18 @@ const HomeAboutVisiMisiContainer = () => {
                                     alt="bg-shape"
                                 />
                                 <div className="text-prj">
-                                    <h2 style={{fontSize:"20px"}}>Fully Responsive</h2>
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna sapien, ullamcorper id varius a</span>
+                                    <h2 style={{fontSize:"20px"}}>MISI</h2>
+                                   <ul>
+                                    <li>    - Profesional
+                                    mengedepankan profesionalisme kemampuan individu dan tim, dalam meng hasilkan produk-produk dan solusi yang cerdas dan tepat guna</li>
+                                    <li>    - Transformasi
+                                    Solusi transformasi digital yang inovatif untuk meningkatkan efisiensi dan produktifitas kepada mitra bisnis </li>
+                                    <li>    - Kualitas 
+                                    Memberikan kualitas layanan yang terbaik kepada para klien secara konsisten dan berkelanjutan yang dapat bersaing dalam dunia digital global </li>
+                                   </ul>
+                                   
                                 </div>
                                 
-                            </div>
-                            <div className="prj-icon">
-                                <img
-                                    className="icon-about"
-                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-1.png`}
-                                    alt="bg-shape"
-                                />
-                                <div className="text-prj">
-                                    <h2 style={{fontSize:"20px"}}>Lots of Illustration Option</h2>
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna sapien, ullamcorper id varius a</span>
-                                </div>
                             </div>
                         </div>
                     </div>
