@@ -16,20 +16,18 @@ const HomeAboutVisiMisiContainer = () => {
                             src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
                             alt="images_not_found"
                         />
-                    <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
+                    <div className="col-xl-12 col-lg-8 mx-auto mb-3 text-center">
                         <SectionTitle
                             classOption="title-section"
                             subTitle=""
-                            title="PROFIL DITEK"
+                            title="PROFIL"
                             excerptClassOption="mb-10"
-                            excerpt="Dunia Inovasi Teknologi (DITEK) Indonesia merupakan perusahaan penyedia layanan, solusi dan produk inovasi teknologi informasi. DITEK berkantor pusat di Jakarta dan memiliki berbagai proyek dengan patner-patner yan ada di Jakarta.
-
-                            Berpengalaman lebih dari satu dekade, saat ini DITEK telah melayani 500 klien B2B di seluruh Indonesia. Seiring perkembangan perusahaan, sekarang DITEK tidak hanya menghadirkan layanan dan produk-produk digital tapi juga menjadi holding company yang melahirkan rintisan startup di bidang teknologi informasi."
+                            excerpt="Dunia Inovasi Teknologi (DITEK) Indonesia merupakan perusahaan penyedia layanan, solusi dan produk inovasi teknologi informasi. DITEK berkantor pusat di Jakarta dan memiliki berbagai proyek dengan patner-patner yan ada di Jakarta. Berpengalaman lebih dari satu dekade, saat ini DITEK telah melayani 500 klien B2B di seluruh Indonesia. Seiring perkembangan perusahaan, sekarang DITEK tidak hanya menghadirkan layanan dan produk-produk digital tapi juga menjadi holding company yang melahirkan rintisan startup di bidang teknologi informasi."
                         />
                     </div>
                 </div>
                 <div className="row mb-n7" style={ {justifyContent:"space-around"}}>
-                    <div className="col-xl-5 col-lg-6 mb-7">
+                    <div className="col-xl-7 col-lg-6 mb-7">
                         <div className="about-content">
                         <img
                                     className="img-about"
@@ -43,7 +41,7 @@ const HomeAboutVisiMisiContainer = () => {
                             <div className="prj-icon">
                                 <img
                                     className="icon-about"
-                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-1.png`}
+                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-visi.png`}
                                     alt="bg-shape"
                                 />
                                 <div className="text-prj">
@@ -54,7 +52,7 @@ const HomeAboutVisiMisiContainer = () => {
                             <div className="prj-icon">
                                 <img
                                     className="icon-about"
-                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-2 q.png`}
+                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-misi.png`}
                                     alt="bg-shape"
                                 />
                                 <div className="text-prj">
