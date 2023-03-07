@@ -188,7 +188,7 @@ const MainMenu = () => {
                     <NavLink to={baseUrl + "/contact"}>
                         Kontak
                     </NavLink>
-                    <ul className="sub-menu">
+                    {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
@@ -205,13 +205,13 @@ const MainMenu = () => {
                                 maps
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/contact"}>
                         Karir
                     </NavLink>
-                    <ul className="sub-menu">
+                    {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
@@ -228,7 +228,7 @@ const MainMenu = () => {
                                 fullstack developer
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
             </ul>
         </nav>
