@@ -30,7 +30,7 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={
                                     baseUrl +
-                                    "/visi-misi"
+                                    "/partner"
                                 }
                             >
                                 Partner
