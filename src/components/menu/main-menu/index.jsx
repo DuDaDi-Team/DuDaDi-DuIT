@@ -95,6 +95,17 @@ const MainMenu = () => {
                                 it konsultan
                             </NavLink>
                         </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    baseUrl +
+                                    "/blog-right-sidebar"
+                                }
+                            >
+                                iot
+                            </NavLink>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -177,11 +188,47 @@ const MainMenu = () => {
                     <NavLink to={baseUrl + "/contact"}>
                         Kontak
                     </NavLink>
+                    <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/faq"}
+                            >
+                                email
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/team"}
+                            >
+                                maps
+                            </NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/contact"}>
                         Karir
                     </NavLink>
+                    <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/faq"}
+                            >
+                                marketing staff
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/team"}
+                            >
+                                fullstack developer
+                            </NavLink>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
