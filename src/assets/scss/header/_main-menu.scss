@@ -45,9 +45,9 @@
         font-family: "Metropolis Semi Bold";
         line-height: 2.3;
         color: #fff;
-        font-size: 10px;
+        font-size: 90%;
         @include max-screen(992, 1199) {
-          font-size: 13px;
+          font-size: 90%;
         }
         text-transform: uppercase;
       }
