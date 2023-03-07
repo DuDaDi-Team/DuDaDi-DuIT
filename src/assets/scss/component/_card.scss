@@ -29,6 +29,8 @@
     overflow: hidden;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
     padding: 2.8125rem 1.875rem;
     @include max-screen(992, 1199) {
       padding: 25px;
@@ -47,12 +49,12 @@
       text-transform: capitalize;
       font-weight: 600;
       line-height: 1.25;
-      font-size: 24px;
+      font-size: 10px;
       a {
         color: inherit;
       }
       @include max-screen(992, 1199) {
-        font-size: 18px;
+        font-size: 10px;
       }
       @include max-screen(767) {
         font-size: 20px;
