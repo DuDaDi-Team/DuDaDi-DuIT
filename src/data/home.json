@@ -32,44 +32,51 @@
         "iconBox": [
             {
                 "id": 1,
-                "className": "grid-item mb-7",
+                "className": "grid-item",
                 "icon": "./images/feature/logo/banner-persegi-panjanga-1.png",
-                "title": "Strong Security",
+                "title": "Google",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 2,
-                "className": "grid-item mb-7",
+                "className": "grid-item",
                 "icon": "./images/feature/logo/banner-persegi-panjanga-2.png",
-                "title": "Creative Idea",
+                "title": "Amazone Web Services",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 3,
-                "className": "grid-item mb-7",
+                "className": "grid-item",
                 "icon": "./images/feature/logo/banner-persegi-panjanga-3.png",
-                "title": "Best Service",
+                "title": "Microsoft",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 4,
-                "className": "grid-item mb-7",
+                "className": "grid-item",
                 "icon": "./images/feature/logo/banner-persegi-panjanga-4.png",
-                "title": "Best Service",
+                "title": "Exabites",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 5,
-                "className": "grid-item mb-7",
+                "className": "grid-item",
                 "icon": "./images/feature/logo/banner-persegi-panjanga-5.png",
-                "title": "Best Service",
+                "title": "Dacast",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             },
             {
                 "id": 6,
-                "className": "grid-item mb-7",
+                "className": "grid-item",
                 "icon": "./images/feature/logo/banner-persegi-panjanga-6.png",
-                "title": "Best Service",
+                "title": "Binance",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            },
+            {
+                "id": 6,
+                "className": "grid-item",
+                "icon": "./images/feature/logo/banner-persegi-panjanga-6.png",
+                "title": "REMIX",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             }
         ]
