@@ -50,14 +50,14 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/service"}>
+                    <NavLink to={baseUrl + "/software-development"}>
                         Layanan
                     </NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/blog"}
+                                to={baseUrl + "/software-development"}
                             >
                                 software development
                             </NavLink>
