@@ -54,7 +54,7 @@ const HomeAboutVisiMisiContainer = () => {
                             <div className="prj-icon">
                                 <img
                                     className="icon-about"
-                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-1.png`}
+                                    src={`${process.env.PUBLIC_URL}/images/feature/svg-export-2.png`}
                                     alt="bg-shape"
                                 />
                                 <div className="text-prj">
