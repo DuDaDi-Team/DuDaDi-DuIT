@@ -22,7 +22,7 @@ const IconPartner = ({ classOption }) => {
                             alt="images_not_found"
                         />
                 <div className="row g-0 align-items-center">
-                    <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
+                    <div className="col-xl-12 col-lg-8 mx-auto mb-3 text-center">
                         <SectionTitle
                             classOption="title-section"
                             subTitle=""
