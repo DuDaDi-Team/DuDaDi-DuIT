@@ -28,9 +28,7 @@ const IconPartner = ({ classOption }) => {
                             subTitle=""
                             title="Partner Kami"
                             excerptClassOption="mb-10"
-                            excerpt="Pleasure rationally encounter consequences that are extremely
-                            painful. Nor again is there anyone who loves or pursues or
-                            desires to obtain"
+                            excerpt="DITEK telah bekerja sama dengan sebagian besar organisasi yang inspiratif dan berpengaruh dari seluruh dunia untuk mengatasi masalah kemajuan teknologi. DITEK berdedikasi untuk membantu dan berperan dalam memajukan teknologi di dunia agar lebih memudahkan para generasi muda sekarang dalam kemampuan mereka dan memaksimalkan potensi mereka sepenuhnya."
                         />
                     </div>
 
