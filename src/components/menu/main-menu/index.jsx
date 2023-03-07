@@ -59,7 +59,7 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={baseUrl + "/blog"}
                             >
-                                software developmen
+                                software development
                             </NavLink>
                         </li>
                         <li className="sub-menu-item">
