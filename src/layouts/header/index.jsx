@@ -1,10 +1,12 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable react/prop-types */
 import { Fragment, useEffect, useState } from "react";
 import Logo from "../../components/logo";
 import MainMenu from "../../components/menu/main-menu";
 import MobileMenu from "../../components/menu/mobile-menu";
 
-const Header = () => {
+const Header = (props) => {
+    console.log("Header props", props);
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
         setOffcanvasShow((prev) => !prev);
@@ -27,7 +29,7 @@ const Header = () => {
         <Fragment>
             <header
                 className={`header-section sticky-header ${
-                    scroll > headerTop ? "is-sticky" : ""
+                    scroll > headerTop || props.isShow === true ? "is-sticky" : ""
                 }`}
             >
                 <div className="container">
