@@ -13,14 +13,14 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/about"}>
+                    <NavLink to={baseUrl + "/visi-misi"}>
                         Profil
                     </NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/blog"}
+                                to={baseUrl + "/visi-misi"}
                             >
                                 Visi Misi
                             </NavLink>
@@ -30,7 +30,7 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={
                                     baseUrl +
-                                    "/blog-left-sidebar"
+                                    "/visi-misi"
                                 }
                             >
                                 Partner
