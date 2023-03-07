@@ -22,7 +22,7 @@ import BlogCategory from "./templates/blog-category";
 import ContactPage from "./pages/contact";
 import VisiMisiPage from "./pages/visi_misi";
 import OurPartner from "./pages/partner";
-
+import SoftwareDevelopment from "./pages/software-developtment";
 /* Seluruh CSS */
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
@@ -113,10 +113,15 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/visi-misi"}`}
                         component={VisiMisiPage}
-                    /><Route
+                    />
+                    <Route
                     path={`${process.env.PUBLIC_URL + "/partner"}`}
                     component={OurPartner}
-                />
+                    />
+                    <Route
+                    path={`${process.env.PUBLIC_URL + "/software-development"}`}
+                    component={SoftwareDevelopment}
+                    />
                 </Switch>
             </NavScrollTop>
         </Router>
