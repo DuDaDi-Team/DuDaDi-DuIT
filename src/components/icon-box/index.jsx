@@ -15,11 +15,11 @@ const IconBox = ({ data }) => {
                     src={baseUrl + dataImage}
                     alt=" feature logo"
                 />
-                {<h4 className="title my-6">
+                {/* {<h4 className="title my-6">
                     <Link to={baseUrl + "/service-details/1"}>
                         {data.title}
                     </Link>
-                </h4> }
+                </h4> } */}
                 {/* <p>{data.excerpt}</p> */}
             </div>
         </div>
