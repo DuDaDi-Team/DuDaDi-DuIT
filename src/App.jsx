@@ -1,6 +1,10 @@
 /* eslint-disable prettier/prettier */
+
+/* Seluruh Router Javascript */
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavScrollTop from "./components/nav-scroll-top";
+
+/* Seluruh Halaman */
 import HomePage from "./pages/index";
 import AboutPage from "./pages/about";
 import ServicePage from "./pages/service";
@@ -16,6 +20,9 @@ import BlogDate from "./templates/blog-date";
 import BlogTag from "./templates/blog-tag";
 import BlogCategory from "./templates/blog-category";
 import ContactPage from "./pages/contact";
+import VisiMisiPage from "./pages/visi_misi";
+
+/* Seluruh CSS */
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
 import "./assets/css/vendor/metropolis.css";
@@ -32,6 +39,7 @@ const App = () => {
         <Router basename="/">
             <NavScrollTop>
                 <Switch>
+                    {/* ini adalah router original */}
                     <Route
                         path={`${process.env.PUBLIC_URL + "/"}`}
                         exact
@@ -98,6 +106,11 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/category/:slug"}`}
                         component={BlogCategory}
+                    />
+                    {/* ini adalah router tambahan */}
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/visi-misi"}`}
+                        component={VisiMisiPage}
                     />
                 </Switch>
             </NavScrollTop>
