@@ -21,6 +21,7 @@ import BlogTag from "./templates/blog-tag";
 import BlogCategory from "./templates/blog-category";
 import ContactPage from "./pages/contact";
 import VisiMisiPage from "./pages/visi_misi";
+import OurPartner from "./pages/partner";
 
 /* Seluruh CSS */
 import "swiper/components/navigation/navigation.scss";
@@ -31,6 +32,7 @@ import "./assets/css/vendor/font-awesome.css";
 import "./assets/css/vendor/material-design-iconic.min.css";
 import "./assets/css/plugins/animate.min.css";
 import "./assets/scss/style.scss";
+import IconPartner from "./containers/global/partner";
 
 // eslint-disable-next-line prettier/prettier
 const App = () => {
@@ -111,7 +113,10 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/visi-misi"}`}
                         component={VisiMisiPage}
-                    />
+                    /><Route
+                    path={`${process.env.PUBLIC_URL + "/partner"}`}
+                    component={OurPartner}
+                />
                 </Switch>
             </NavScrollTop>
         </Router>
