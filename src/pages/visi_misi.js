@@ -13,7 +13,8 @@ import HomeAboutVisiMisiContainer from "../containers/home/about_visi_misi";
 import HomeBlog from "../containers/home/blog";
 import IntroContainer from "../containers/home/intro";
 import ServiceListContainer from "../containers/service/service-list";
-import Footer from "../layouts/footer";
+// import Footer from "../layouts/footer";
+import FooterCopyright from "../layouts/footer_copyright";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
 
@@ -25,7 +26,7 @@ const VisiMisiPage = () => {
                 <div className="wrapper">
                     <Header isShow={true} />
                     <HomeAboutVisiMisiContainer />
-                    <Footer />
+                    <FooterCopyright />
                     <ScrollToTop />
                 </div>
             </Layout>
