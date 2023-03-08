@@ -10,7 +10,7 @@ const HomeBlog = () => {
             <div className="container">
                 <SectionTitleTwo
                     classOption="title-section mb-lg-10 pb-lg-1"
-                    subTitle="BLOG POST"
+                    subTitle="Artikel"
                     title="Latest<span class='text-primary'>Post</span> from Blog"
                     excerptClassOption="mt-lg-10 pt-lg-3 mb-10 mb-lg-0"
                     excerpt="Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain"
