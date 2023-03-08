@@ -23,6 +23,11 @@ import ContactPage from "./pages/contact";
 import VisiMisiPage from "./pages/visi_misi";
 import OurPartner from "./pages/partner";
 import SoftwareDevelopment from "./pages/software-developtment";
+import ItSolution from "./pages/it-solution";
+import SystemIntegrasi from "./pages/integrasi";
+import DireksiPage from "./pages/direksi";
+import DevTeamPage from "./pages/devteam";
+import MarketingTeamPage from "./pages/marketingteam";
 /* Seluruh CSS */
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
@@ -121,6 +126,26 @@ const App = () => {
                     <Route
                     path={`${process.env.PUBLIC_URL + "/software-development"}`}
                     component={SoftwareDevelopment}
+                    />
+                    <Route
+                    path={`${process.env.PUBLIC_URL + "/it-solution"}`}
+                    component={ItSolution}
+                    />
+                    <Route
+                    path={`${process.env.PUBLIC_URL + "/system-integrasi"}`}
+                    component={SystemIntegrasi}
+                    />
+                    <Route
+                    path={`${process.env.PUBLIC_URL + "/direksi"}`}
+                    component={DireksiPage}
+                    />
+                    <Route
+                    path={`${process.env.PUBLIC_URL + "/dev-team"}`}
+                    component={DevTeamPage}
+                    />
+                    <Route
+                    path={`${process.env.PUBLIC_URL + "/marketing-team"}`}
+                    component={MarketingTeamPage}
                     />
                 </Switch>
             </NavScrollTop>
