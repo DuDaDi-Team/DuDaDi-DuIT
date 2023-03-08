@@ -67,7 +67,7 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={
                                     baseUrl +
-                                    "/blog-left-sidebar"
+                                    "/it-solution"
                                 }
                             >
                                 it solution
@@ -78,10 +78,10 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={
                                     baseUrl +
-                                    "/blog-right-sidebar"
+                                    "/system-integrasi"
                                 }
                             >
-                                sistem infomasi
+                                sistem integrasi
                             </NavLink>
                         </li>
                         <li className="sub-menu-item">
@@ -89,7 +89,7 @@ const MainMenu = () => {
                                 className="sub-menu-link"
                                 to={
                                     baseUrl +
-                                    "/blog-right-sidebar"
+                                    "/faq"
                                 }
                             >
                                 it konsultan
@@ -109,14 +109,14 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/team"}>
+                    <NavLink to={baseUrl + "/direksi"}>
                         Tim
                     </NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/faq"}
+                                to={baseUrl + "/direksi"}
                             >
                                 direksi
                             </NavLink>
@@ -124,7 +124,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/team"}
+                                to={baseUrl + "/dev-team"}
                             >
                                 developer
                             </NavLink>
@@ -132,7 +132,7 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/team"}
+                                to={baseUrl + "/marketing-team"}
                             >
                                 marketing
                             </NavLink>
