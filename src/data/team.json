@@ -1,9 +1,97 @@
 [
     {
-        "direksi":[
+        "direksi": [
             {
-        
-        
+                "id": 1,
+                "thumb": "./images/team/1.png",
+                "name": "Darwin",
+                "designation": "Direktur"
+            },
+            {
+                "id": 3,
+                "thumb": "./images/team/3.png",
+                "name": "Eddy",
+                "designation": "Komisaris"
+            }
+        ]
+    },
+    {
+        "devteam": [
+            {
+                "id": 1,
+                "thumb": "./images/team/1.png",
+                "name": "Yulieustianus Eko",
+                "designation": "Senior Tech. Advisor"
+            },
+            {
+                "id": 9,
+                "thumb": "./images/team/9.png",
+                "name": "Hendra",
+                "designation": "Senior Design Advisor"
+            },
+            {
+                "id": 2,
+                "thumb": "./images/team/3.png",
+                "name": "Rusman Wijaya",
+                "designation": "Team Leader Squad 1"
+            },
+            {
+                "id": 3,
+                "thumb": "./images/team/4.png",
+                "name": "Uci Baetulloh",
+                "designation": "Team Leader Squad 2"
+            },
+            {
+                "id": 4,
+                "thumb": "./images/team/10.png",
+                "name": "Rumion Apryan",
+                "designation": "Team Leader Squad 3"
+            },
+            {
+                "id": 5,
+                "thumb": "./images/team/7.png",
+                "name": "Riski Adam",
+                "designation": "Fullstack Developer"
+            },
+            {
+                "id": 6,
+                "thumb": "./images/team/6.png",
+                "name": "Martinas Amedilia",
+                "designation": "UI/UX Designer"
+            },
+            {
+                "id": 8,
+                "thumb": "./images/team/8.png",
+                "name": "Ethan Williams",
+                "designation": "QA Developer"
+            }
+        ]
+    },
+    {
+        "marketingteam": [
+            {
+                "id": 1,
+                "thumb": "./images/team/1.png",
+                "name": "Beben",
+                "designation": "Business Manager"
+            },
+            {
+                "id": 3,
+                "thumb": "./images/team/3.png",
+                "name": "Billy",
+                "designation": "General Manager"
+            },
+            {
+                "id": 7,
+                "thumb": "./images/team/2.png",
+                "name": "Shane Watson",
+                "designation": "Business Manager"
+            }
+        ]
+    },
+    {
+        "example": [
+            {
                 "id": 1,
                 "thumb": "./images/team/1.png",
                 "name": "Yulieustianus Eko",
@@ -52,60 +140,5 @@
                 "designation": "Head of Marketing"
             }
         ]
-    },
-    {
-        "devteam":[
-            {
-        
-        
-                "id": 1,
-                "thumb": "./images/team/1.png",
-                "name": "Uci",
-                "designation": "Head of Idea"
-            },
-            {
-                "id": 2,
-                "thumb": "./images/team/7.png",
-                "name": "Ryan",
-                "designation": "Head of Design"
-            },
-            {
-                "id": 3,
-                "thumb": "./images/team/3.png",
-                "name": "Rusman",
-                "designation": "Head of HR"
-            },
-            {
-                "id": 4,
-                "thumb": "./images/team/4.png",
-                "name": "Billy",
-                "designation": "Head of Development"
-            }
-        ]
-    },
-    {
-        "marketingteam":[
-            {
-        
-        
-                "id": 1,
-                "thumb": "./images/team/1.png",
-                "name": "Pak Beben",
-                "designation": "Head of Idea"
-            },
-            {
-                "id": 2,
-                "thumb": "./images/team/7.png",
-                "name": "Koh Darwin",
-                "designation": "Head of Design"
-            },
-            {
-                "id": 3,
-                "thumb": "./images/team/3.png",
-                "name": "Billy",
-                "designation": "Head of HR"
-            }
-        ]
     }
-    
 ]
