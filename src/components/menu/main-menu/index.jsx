@@ -84,7 +84,7 @@ const MainMenu = () => {
                                 sistem integrasi
                             </NavLink>
                         </li>
-                        <li className="sub-menu-item">
+                        {/* <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
                                 to={
@@ -105,7 +105,7 @@ const MainMenu = () => {
                             >
                                 iot
                             </NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </li>
                 <li>
@@ -124,17 +124,17 @@ const MainMenu = () => {
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/dev-team"}
+                                to={baseUrl + "/marketing-team"}
                             >
-                                developer
+                                marketing
                             </NavLink>
                         </li>
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
-                                to={baseUrl + "/marketing-team"}
+                                to={baseUrl + "/dev-team"}
                             >
-                                marketing
+                                developer
                             </NavLink>
                         </li>
                     </ul>
@@ -208,7 +208,7 @@ const MainMenu = () => {
                     </ul> */}
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/contact"}>
+                    <NavLink to={baseUrl + "/karir"}>
                         Karir
                     </NavLink>
                     {/* <ul className="sub-menu">
