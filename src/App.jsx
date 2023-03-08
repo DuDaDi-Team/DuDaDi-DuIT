@@ -38,6 +38,7 @@ import "./assets/css/vendor/material-design-iconic.min.css";
 import "./assets/css/plugins/animate.min.css";
 import "./assets/scss/style.scss";
 import IconPartner from "./containers/global/partner";
+import KarirPage from "./pages/karir";
 
 // eslint-disable-next-line prettier/prettier
 const App = () => {
@@ -73,6 +74,10 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/faq"}`}
                         component={FaqPage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/karir"}`}
+                        component={KarirPage}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/contact"}`}
