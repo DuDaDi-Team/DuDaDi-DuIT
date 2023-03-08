@@ -39,7 +39,7 @@ const TeamContainer = ({ classOption }) => {
                             <div data-depth="0.2">
                                 <img
                                     src={`${process.env.PUBLIC_URL}/images/slider/about-2.png`}
-                                    alt="Buznex"
+                                    alt="Ditek"
                                 />
                             </div>
                         </div>

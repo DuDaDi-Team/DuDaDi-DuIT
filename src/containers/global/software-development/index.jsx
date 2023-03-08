@@ -23,13 +23,13 @@ const IconDevelopment = ({ classOption }) => {
                             alt="images_not_found"
                         />
                 <div className="row g-0 align-items-center">
-                    <div className="col-xl-6 col-lg-8 mx-auto mb-3 text-center">
+                    <div className="col-xl-12 col-lg-8 mx-auto mb-3 text-center">
                         <SectionTitle
                             classOption="title-section"
                             subTitle=""
                             title="Software Development"
                             excerptClassOption="mb-10"
-                            excerpt="DITEK telah bekerja sama dengan sebagian besar organisasi yang inspiratif dan berpengaruh dari seluruh dunia untuk mengatasi masalah kemajuan teknologi. DITEK berdedikasi untuk membantu dan berperan dalam memajukan teknologi di dunia agar lebih memudahkan para generasi muda sekarang dalam kemampuan mereka dan memaksimalkan potensi mereka sepenuhnya."
+                            excerpt="Proses pengembangan perangkat lunak yang dijalankan secara sistematis dan bertujuan untuk menjaga komunikasi antar tim developer dalam mengembangkan sebuah aplikasi. Software development memberikan hasil yang maksimal dan berkualitas dalam pengembangan perangkat lunak."
                         />
                     </div>
 

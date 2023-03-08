@@ -22,7 +22,7 @@ const DireksiPageContainer = () => {
                             excerpt=""
                         />
                     </div>
-                <div className="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 mb-n7">
+                <div className="flex-center-custom row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 mb-n7">
                     {TeamData[0].direksi &&
                         TeamData[0].direksi.map((single, key) => {
                             return (

@@ -28,7 +28,7 @@ const IconItSolution = ({ classOption }) => {
                             subTitle=""
                             title="IT Solution"
                             excerptClassOption="mb-10"
-                            excerpt="DITEK telah bekerja sama dengan sebagian besar organisasi yang inspiratif dan berpengaruh dari seluruh dunia untuk mengatasi masalah kemajuan teknologi. DITEK berdedikasi untuk membantu dan berperan dalam memajukan teknologi di dunia agar lebih memudahkan para generasi muda sekarang dalam kemampuan mereka dan memaksimalkan potensi mereka sepenuhnya."
+                            excerpt="Dengan adanya IT Solution, operasional perusahaan akan berjalan dengan mudah. Sehingga, Anda dapat lebih berfokus pada pengembangan bisnis. Melalui artikel kali ini, Anda akan memahami apa itu IT Solution dan apa saja layanan bisnis yang disediakannya untuk membantu perkembangan perusahaan Anda."
                         />
                     </div>
 

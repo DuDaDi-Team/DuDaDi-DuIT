@@ -28,7 +28,7 @@ const IconSystemIntegrasi = ({ classOption }) => {
                             subTitle=""
                             title="Sistem Integrasi"
                             excerptClassOption="mb-10"
-                            excerpt="DITEK telah bekerja sama dengan sebagian besar organisasi yang inspiratif dan berpengaruh dari seluruh dunia untuk mengatasi masalah kemajuan teknologi. DITEK berdedikasi untuk membantu dan berperan dalam memajukan teknologi di dunia agar lebih memudahkan para generasi muda sekarang dalam kemampuan mereka dan memaksimalkan potensi mereka sepenuhnya."
+                            excerpt="Perusahaan bidang teknologi informasi dengan fokus pada integrasi sistem infrastruktur jaringan, server, PC, dan software biasa disebut sebagai perusahaan sistem integrator yang bertanggungjawab agar seluruh perangkat yang berbeda-beda tsb dapat bekerja sebagai suatu kesatuan sistem TI."
                         />
                     </div>
 

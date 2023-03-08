@@ -8,21 +8,21 @@ const MarketingTeamContainer = () => {
     return (
         <div className="service-section section-py">
             <div className="container adjust-margin">
-            <img
-                            className="icon-feature"
-                            src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
-                            alt="images_not_found"
-                        />
-                        <div className="col-xl-12 col-lg-8 mx-auto mb-3 text-center">
-                        <SectionTitle
-                            classOption="title-section"
-                            subTitle=""
-                            title="Marketing Team"
-                            excerptClassOption="mb-10"
-                            excerpt=""
-                        />
-                    </div>
-                <div className="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 mb-n7">
+                <img
+                    className="icon-feature"
+                    src={`${process.env.PUBLIC_URL}/images/feature/icon-collaborate.png`}
+                    alt="images_not_found"
+                />
+                <div className="col-xl-12 col-lg-8 mx-auto mb-3 text-center">
+                    <SectionTitle
+                        classOption="title-section"
+                        subTitle=""
+                        title="Marketing Team"
+                        excerptClassOption="mb-10"
+                        excerpt=""
+                    />
+                </div>
+                <div className="flex-center-custom row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 mb-n7">
                     {TeamData[2].marketingteam &&
                         TeamData[2].marketingteam.map((single, key) => {
                             return (

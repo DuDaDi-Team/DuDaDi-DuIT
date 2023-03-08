@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
-import AccordionWrap from "../../components/accrodion/AccordionWrap";
+import AccordionWrapKarir from "../../components/accrodion/AccordionKarir";
 
 const AccordionContainer = () => {
     const baseUrl = global.URL;
@@ -9,7 +9,7 @@ const AccordionContainer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-10">
-                        <AccordionWrap />
+                        <AccordionWrapKarir />
                     </div>
                 </div>
             </div>
