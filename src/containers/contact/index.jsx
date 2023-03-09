@@ -13,14 +13,14 @@ const ContactContainer = () => {
                 <div className="row mb-n7">
                     <div className="col-xl-6 col-lg-6 mb-7">
                         <div className="contact-title-section">
-                            <h3 className="title">Get in touch</h3>
-                            <p>
+                            <h3 className="title">Hubungi Kami</h3>
+                            {/* <p>
                                 Top rated construction packages we pleasure
                                 rationally encounter
                                 <br className="d-none d-xl-block" />
                                 consequences interesting who loves or pursue or
                                 desires
-                            </p>
+                            </p> */}
                         </div>
 
                         <ContactForm />

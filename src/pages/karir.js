@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import AccordionContainer from "../containers/accordion";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
-import Footer from "../layouts/footer";
+import FooterCopyright from "../layouts/footer_copyright";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
 
@@ -22,9 +22,8 @@ const KarirPage = () => {
                         image="./images/faq/1.png"
                     />
                     <AccordionContainer />
-                    <NewsletterArea />
-                    <Footer />
-                    <ScrollToTop />
+                    {/* <NewsletterArea /> */}
+                    <FooterCopyright />
                 </div>
             </Layout>
         </React.Fragment>

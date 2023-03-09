@@ -26,7 +26,7 @@ const HomePage = () => {
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />
-                    <FooterCopyright />
+                    {/* <FooterCopyright /> */}
                 </div>
             </Layout>
         </React.Fragment>
