@@ -44,14 +44,14 @@ const MainMenu = () => {
                                     "/blog-right-sidebar"
                                 }
                             >
-                                Projek
+                                Project
                             </NavLink>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <NavLink to={baseUrl + "/software-development"}>
-                        Layanan
+                        bisnis
                     </NavLink>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">

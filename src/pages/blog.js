@@ -3,7 +3,7 @@ import React from "react";
 import BlogItemContainer from "../containers/blog/blog-item";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
-import Footer from "../layouts/footer";
+import FooterCopyright from "../layouts/footer_copyright";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
 import BlogData from "../data/blog.json";
@@ -23,9 +23,8 @@ const BlogPage = () => {
                         image="./images/blog/banner.png"
                     />
                     <BlogItemContainer data={BlogData} />
-                    <NewsletterArea />
-                    <Footer />
-                    <ScrollToTop />
+
+                    <FooterCopyright />
                 </div>
             </Layout>
         </React.Fragment>

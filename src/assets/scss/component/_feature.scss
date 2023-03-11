@@ -13,13 +13,16 @@
   top: 0px;
   position: relative;
   left: 48%;
+  @include max-screen(475) {
+      left: 45%;
+    }
  
 }
 
 .icon-feature-2 {
   top: -120px;
   position: relative;
-  left: 48%;
+  left: 45%;
   width: 3.4%;
 }
 

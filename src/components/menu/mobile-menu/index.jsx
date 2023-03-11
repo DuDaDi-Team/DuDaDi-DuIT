@@ -58,7 +58,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={baseUrl + "/visi-misi"}>
+                                <NavLink to={""}>
                                     Profil
                                 </NavLink>
                                 <span
@@ -94,7 +94,7 @@ const MobileMenu = ({ show, onClose }) => {
                                                 "/blog-right-sidebar"
                                             }
                                         >
-                                            projek
+                                            project
                                         </NavLink>
                                     </li>
                                 </ul>
@@ -103,7 +103,7 @@ const MobileMenu = ({ show, onClose }) => {
                                 <NavLink
                                     to={baseUrl + "/software-development"}
                                 >
-                                    Layanan
+                                    bisnis
                                 </NavLink>
                                 <span
                                     className="menu-expand"

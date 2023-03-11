@@ -18,7 +18,7 @@ const KarirPage = () => {
                     <Header />
                     <PageBanner
                         title="Karir"
-                        excerpt="Kami memilih menjadi generasi muda yang berbeda, yang mempunyai kemampuan dan ide-ideo cemerlang yang berpotensi untuk memajukan teknologi untuk masyarakat di perkotaan dan sekitarnya untuk memberdayakan, demi memenuhi kesjahteraan dan kemudahan dari teknologi yang bermanfaat bagi sesama."
+                        excerpt=""
                         image="./images/faq/1.png"
                     />
                     <AccordionContainer />

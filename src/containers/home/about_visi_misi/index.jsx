@@ -22,7 +22,7 @@ const HomeAboutVisiMisiContainer = () => {
                             subTitle=""
                             title="PROFIL"
                             excerptClassOption="mb-10"
-                            excerpt="Dunia Inovasi Teknologi (DITEK) Indonesia merupakan perusahaan penyedia layanan, solusi dan produk inovasi teknologi informasi. DITEK berkantor pusat di Jakarta dan memiliki berbagai proyek dengan patner-patner yan ada di Jakarta. Berpengalaman lebih dari satu dekade, saat ini DITEK telah melayani 500 klien B2B di seluruh Indonesia. Seiring perkembangan perusahaan, sekarang DITEK tidak hanya menghadirkan layanan dan produk-produk digital tapi juga menjadi holding company yang melahirkan rintisan startup di bidang teknologi informasi."
+                            excerpt="Dunia Inovasi Teknologi (DITEK) merupakan perusahaan penyedia layanan, solusi dan produk inovasi teknologi informasi. DITEK berkantor pusat di Jakarta dan memiliki berbagai proyek dengan patner-patner yan ada di Jakarta. Berpengalaman lebih dari satu dekade, saat ini DITEK telah melayani 500 klien B2B di seluruh Indonesia. Seiring perkembangan perusahaan, sekarang DITEK tidak hanya menghadirkan layanan dan produk-produk digital tapi juga menjadi holding company yang melahirkan rintisan startup di bidang teknologi informasi."
                         />
                     </div>
                 </div>

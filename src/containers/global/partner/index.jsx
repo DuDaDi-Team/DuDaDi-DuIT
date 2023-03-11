@@ -28,7 +28,7 @@ const IconPartner = ({ classOption }) => {
                             subTitle=""
                             title="Partner Kami"
                             excerptClassOption="mb-10"
-                            excerpt="DITEK telah bekerja sama dengan sebagian besar organisasi yang inspiratif dan berpengaruh dari seluruh dunia untuk mengatasi masalah kemajuan teknologi. DITEK berdedikasi untuk membantu dan berperan dalam memajukan teknologi di dunia agar lebih memudahkan para generasi muda sekarang dalam kemampuan mereka dan memaksimalkan potensi mereka sepenuhnya."
+                            excerpt=""
                         />
                     </div>
 

@@ -2,7 +2,10 @@
 // Custom Style file only for customer to use
 
 .about-us {
-    margin-top: 13%;
+    margin-top: 7%;
+    @include max-screen(465) {
+            margin-top: 20%;
+        }
 }
 
 .adjust-margin{
