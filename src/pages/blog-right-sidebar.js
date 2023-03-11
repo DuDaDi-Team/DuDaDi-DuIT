@@ -3,7 +3,7 @@ import React from "react";
 import BlogItemRightContainer from "../containers/blog/blog-item-right";
 import NewsletterArea from "../containers/global/newsletter";
 import PageBanner from "../containers/global/page-banner";
-import Footer from "../layouts/footer";
+import FooterCopyright from "../layouts/footer_copyright";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
 import BlogData from "../data/blog.json";
@@ -24,9 +24,7 @@ const BlogRightSidebarPage = () => {
                         image="./images/blog/banner.png"
                     />
                     <BlogItemRightContainer data={BlogData} />
-                    <NewsletterArea />
-                    <Footer />
-                    <ScrollToTop />
+                    <FooterCopyright />
                 </div>
             </Layout>
         </React.Fragment>
