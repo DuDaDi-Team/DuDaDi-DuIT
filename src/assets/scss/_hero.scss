@@ -61,9 +61,12 @@
       line-height: 1.4;
     }
     @include max-screen(480) {
-      text-shadow: 1px 0px 1px #222020, 0px 1px 1px #120e0e, 2px 1px 1px #000, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ffdbdb, 3px 4px 1px #eee, 5px 4px 1px #020708, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
-        color: #40d0ee;
+      text-shadow: 1px 0px 1px #222020, 0px 1px 1px #120e0e, 2px 1px 1px #000, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #40d0ee, 4px 3px 1px #40d0ee, 3px 4px 1px #40d0ee;
+      color: #fff;
       font-size: 30px;
+      -webkit-text-stroke: 1px black;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     @include max-screen(576, 767) {
       font-size: 45px;

@@ -85,6 +85,13 @@
                 "icon": "./images/feature/logo/banner-8.png",
                 "title": "React",
                 "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            },
+            {
+                "id": 9,
+                "className": "grid-item",
+                "icon": "./images/feature/logo/banner-9.png",
+                "title": "React",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
             }
         ]
     },
