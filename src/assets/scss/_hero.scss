@@ -61,6 +61,8 @@
       line-height: 1.4;
     }
     @include max-screen(480) {
+      text-shadow: 1px 0px 1px #222020, 0px 1px 1px #120e0e, 2px 1px 1px #000, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ffdbdb, 3px 4px 1px #eee, 5px 4px 1px #020708, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+        color: #40d0ee;
       font-size: 30px;
     }
     @include max-screen(576, 767) {
@@ -104,6 +106,13 @@
   }
   @include min-screen(1200) {
     max-width: 100%;
+  }
+  @include max-screen(465) {
+    .hero-shape1-image{
+      height: 100vh !important;
+      object-fit: cover !important;
+      object-position: 90% !important;
+    }
   }
 }
 .hero-shape2 {

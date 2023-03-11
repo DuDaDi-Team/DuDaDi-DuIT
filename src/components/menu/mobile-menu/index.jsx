@@ -54,19 +54,12 @@ const MobileMenu = ({ show, onClose }) => {
                         <ul>
                             <li>
                                 <NavLink exact to={baseUrl + "/"}>
-                                    Home
+                                    Beranda
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={baseUrl + "/about"}>
-                                    About
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to={baseUrl + "/service"}
-                                >
-                                    Service
+                                <NavLink to={baseUrl + "/visi-misi"}>
+                                    Profil
                                 </NavLink>
                                 <span
                                     className="menu-expand"
@@ -78,26 +71,40 @@ const MobileMenu = ({ show, onClose }) => {
                                         <NavLink
                                             to={
                                                 baseUrl +
-                                                "/service"
+                                                "/visi-misi"
                                             }
                                         >
-                                            service
+                                            visi misi
                                         </NavLink>
                                     </li>
                                     <li>
                                         <NavLink
                                             to={
                                                 baseUrl +
-                                                "/service-details/1"
+                                                "/partner"
                                             }
                                         >
-                                            single service
+                                            partner
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                baseUrl +
+                                                "/blog-right-sidebar"
+                                            }
+                                        >
+                                            projek
                                         </NavLink>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <NavLink to="/">Pages</NavLink>
+                                <NavLink
+                                    to={baseUrl + "/software-development"}
+                                >
+                                    Layanan
+                                </NavLink>
                                 <span
                                     className="menu-expand"
                                     onClick={onClickHandler}
@@ -106,27 +113,85 @@ const MobileMenu = ({ show, onClose }) => {
                                 <ul>
                                     <li>
                                         <NavLink
-                                            to={baseUrl + "/faq"}
+                                            to={
+                                                baseUrl +
+                                                "/software-development"
+                                            }
                                         >
-                                            faq
+                                            software development
                                         </NavLink>
                                     </li>
                                     <li>
                                         <NavLink
                                             to={
-                                                baseUrl + "/team"
+                                                baseUrl +
+                                                "/it-solution"
                                             }
                                         >
-                                            team
+                                            it solution
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                baseUrl +
+                                                "/system-integrasi"
+                                            }
+                                        >
+                                            sistem integrasi
+                                        </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to={baseUrl + "/direksi"}
+                                >
+                                    tim
+                                </NavLink>
+                                <span
+                                    className="menu-expand"
+                                    onClick={onClickHandler}
+                                    aria-hidden="true"
+                                ></span>
+                                <ul>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                baseUrl +
+                                                "/direksi"
+                                            }
+                                        >
+                                            direksi
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                baseUrl +
+                                                "/marketing-team"
+                                            }
+                                        >
+                                            marketing
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to={
+                                                baseUrl +
+                                                "/dev-team"
+                                            }
+                                        >
+                                            developer
                                         </NavLink>
                                     </li>
                                 </ul>
                             </li>
                             <li>
                                 <NavLink to={baseUrl + "/blog"}>
-                                    Blog
+                                    Artikel
                                 </NavLink>
-                                <span
+                                {/* <span
                                     className="menu-expand"
                                     onClick={onClickHandler}
                                     aria-hidden="true"
@@ -171,15 +236,38 @@ const MobileMenu = ({ show, onClose }) => {
                                             blog details
                                         </NavLink>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li>
                                 <NavLink
                                     to={baseUrl + "/contact"}
                                 >
-                                    Contact
+                                    Kontak
                                 </NavLink>
                             </li>
+                            <li>
+                    <NavLink to={baseUrl + "/karir"}>
+                        Karir
+                    </NavLink>
+                    {/* <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/faq"}
+                            >
+                                marketing staff
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={baseUrl + "/team"}
+                            >
+                                fullstack developer
+                            </NavLink>
+                        </li>
+                    </ul> */}
+                </li>
                         </ul>
                     </nav>
                 </div>

@@ -8,7 +8,8 @@ const IntroContainer = () => {
     return (
         <div className="section position-relative">
             <div className="hero-shape1">
-                { <img
+                {<img
+                    className="hero-shape1-image"
                     src={`${baseUrl}/images/slider/shape/background-banner.png`}
                     alt="shape"
                 /> }
