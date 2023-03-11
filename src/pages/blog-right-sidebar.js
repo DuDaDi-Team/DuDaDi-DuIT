@@ -19,8 +19,7 @@ const BlogRightSidebarPage = () => {
                     <Header />
                     <PageBanner
                         title="Blog Post"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        excerpt=""
                         image="./images/blog/banner.png"
                     />
                     <BlogItemRightContainer data={BlogData} />

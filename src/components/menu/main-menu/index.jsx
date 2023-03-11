@@ -13,9 +13,9 @@ const MainMenu = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/visi-misi"}>
+                    <h2 className="text-nav">
                         Profil
-                    </NavLink>
+                    </h2>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
@@ -50,9 +50,9 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/software-development"}>
+                    <h2 className="text-nav">
                         bisnis
-                    </NavLink>
+                    </h2>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
@@ -109,9 +109,9 @@ const MainMenu = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={baseUrl + "/direksi"}>
+                    <h2 className="text-nav">
                         Tim
-                    </NavLink>
+                    </h2>
                     <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
